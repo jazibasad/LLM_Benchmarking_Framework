@@ -2,1325 +2,2504 @@
   {
     "id": "P001",
     "category": "Knowledge Retrieval",
-    "prompt": "Can you explain how database indexing works in SQL Server, specifically comparing clustered and non-clustered indexes in terms of disk storage and query performance?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Write a Python function to check if a given string is a palindrome, ignoring spaces and case sensitivity.",
+    "evaluation_criteria": {
+      "syntax_correctness": "0-5 (Evaluates clean syntax and execution)",
+      "edge_case_handling": "0-5 (Evaluates handling of spaces, punctuation, and casing)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P002",
     "category": "Knowledge Retrieval",
-    "prompt": "What are the core differences between process-based multitasking and thread-based multitasking in operating systems context?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Explain the core differences between TCP and UDP protocols in computer networking, highlighting use cases for each.",
+    "evaluation_criteria": {
+      "factual_accuracy": "0-5 (Evaluates protocol definitions and characteristics)",
+      "use_case_clarity": "0-5 (Evaluates practical applicability examples)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P003",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe how the TCP/IP four-layer model handles packet encapsulation and error recovery during network congestion.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "List the four core principles of Object-Oriented Programming and provide a one-sentence definition for each.",
+    "evaluation_criteria": {
+      "definition_accuracy": "0-5 (Evaluates correctness of OOP principles)",
+      "conciseness": "0-5 (Evaluates adherence to concise definitions)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P004",
     "category": "Knowledge Retrieval",
-    "prompt": "What is garbage collection in .NET and how do generational heaps affect memory allocation cycles?",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "What is the time complexity of searching for an element in a balanced Binary Search Tree (BST) versus a singly linked list? Briefly explain why.",
+    "evaluation_criteria": {
+      "complexity_accuracy": "0-5 (Evaluates correct Big-O notations)",
+      "explanation_clarity": "0-5 (Evaluates structural traversal reasoning)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P005",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain the mechanics of public-key cryptography using the RSA algorithm, detailing prime selection and modular exponentiation.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Explain the role of the primary key and foreign key in relational database management systems.",
+    "evaluation_criteria": {
+      "relational_integrity": "0-5 (Evaluates understanding of keys and constraints)",
+      "clarity": "0-5 (Evaluates structural explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P006",
     "category": "Knowledge Retrieval",
-    "prompt": "What is the primary purpose of an activation function in neural networks, and how do ReLU and GeLU differ mathematically?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Define what an HTTP status code in the 5xx range signifies and give two common examples.",
+    "evaluation_criteria": {
+      "factual_accuracy": "0-5 (Evaluates server error classification)",
+      "example_precision": "0-5 (Evaluates correctness of examples like 500 or 503)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P007",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain the concept of containerization and how Docker leverages Linux namespaces and control groups (cgroups) for resource isolation.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Describe the function of a version control system like Git and explain the difference between 'git pull' and 'git fetch'.",
+    "evaluation_criteria": {
+      "concept_accuracy": "0-5 (Evaluates version control fundamentals)",
+      "command_differentiation": "0-5 (Evaluates distinction between fetch and merge actions)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P008",
     "category": "Knowledge Retrieval",
-    "prompt": "What are RESTful API constraints, and how does statelessness impact scalability in distributed web architectures?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "What is process synchronization in operating systems, and why is a mutex used?",
+    "evaluation_criteria": {
+      "definition_precision": "0-5 (Evaluates understanding of race conditions)",
+      "mutex_explanation": "0-5 (Evaluates mutual exclusion mechanics)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P009",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe the lifecycle of an Android activity and explain how the system handles configuration changes like screen rotation.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Explain the difference between synchronous and asynchronous programming paradigms with a short example for each.",
+    "evaluation_criteria": {
+      "conceptual_clarity": "0-5 (Evaluates blocking vs non-blocking flows)",
+      "example_quality": "0-5 (Evaluates code/scenario illustration)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P010",
     "category": "Knowledge Retrieval",
-    "prompt": "What is memory paging in virtual memory systems, and how do translation lookaside buffers (TLBs) accelerate address translation?",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "What is the purpose of an index in a relational database, and what is a potential downside of having too many indexes?",
+    "evaluation_criteria": {
+      "benefit_explanation": "0-5 (Evaluates query acceleration understanding)",
+      "tradeoff_analysis": "0-5 (Evaluates write penalty and storage overhead)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P011",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain how Git manages commit history internally using directed acyclic graphs (DAGs), blobs, trees, and commit objects.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Define symmetric and asymmetric encryption and name one standard algorithm for each.",
+    "evaluation_criteria": {
+      "algorithm_precision": "0-5 (Evaluates AES/RSA correct assignment)",
+      "key_management_clarity": "0-5 (Evaluates single vs public/private key handling)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P012",
     "category": "Knowledge Retrieval",
-    "prompt": "What is the difference between symmetric and asymmetric multiprocessing (SMP vs. AMP) in multi-core computer hardware?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "What is virtual memory in operating systems, and how does paging facilitate it?",
+    "evaluation_criteria": {
+      "virtual_memory_definition": "0-5 (Evaluates RAM extension abstraction)",
+      "paging_mechanism": "0-5 (Evaluates page table and frame mapping)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P013",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe how DNS resolution works recursively from root servers down to authoritative name servers when a user visits a domain.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Explain the Model-View-Controller (MVC) architectural pattern and the responsibility of each component.",
+    "evaluation_criteria": {
+      "separation_of_concerns": "0-5 (Evaluates isolation of data, UI, and logic)",
+      "component_breakdown": "0-5 (Evaluates accurate roles for Model, View, and Controller)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P014",
     "category": "Knowledge Retrieval",
-    "prompt": "What are ACID properties in relational database management systems, and how do isolation levels prevent dirty reads?",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "What is an API rate limiter, and why is it essential for public web services?",
+    "evaluation_criteria": {
+      "purpose_accuracy": "0-5 (Evaluates traffic control and DDoS mitigation)",
+      "implementation_awareness": "0-5 (Evaluates threshold tracking concepts)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P015",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain the architecture of a compiler, focusing on the transition from abstract syntax trees (ASTs) to intermediate representation (IR).",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Define containerization in software development and name the core tool most widely used for it.",
+    "evaluation_criteria": {
+      "definition_precision": "0-5 (Evaluates OS-level virtualization concept)",
+      "tool_identification": "0-5 (Evaluates accurate identification of Docker)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P016",
     "category": "Knowledge Retrieval",
-    "prompt": "What is deadlocking in concurrent programming, and what are the four necessary conditions outlined by Coffman?",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Describe the internal architectural workflow of a Java Virtual Machine (JVM) garbage collector, detailing the phases of the Mark-and-Sweep algorithm.",
+    "evaluation_criteria": {
+      "architectural_depth": "0-5 (Evaluates technical precision of JVM memory regions)",
+      "algorithmic_explanation": "0-5 (Evaluates clear description of Mark-and-Sweep phases)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P017",
     "category": "Knowledge Retrieval",
-    "prompt": "Compare SQL and NoSQL databases by outlining horizontal versus vertical scaling characteristics and schema flexibility.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Explain ACID properties in database transaction management. Give a concrete scenario where Atomicity is critical.",
+    "evaluation_criteria": {
+      "acid_definition": "0-5 (Evaluates Atomicity, Consistency, Isolation, Durability accuracy)",
+      "scenario_quality": "0-5 (Evaluates realistic bank transfer or rollback example)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P018",
     "category": "Knowledge Retrieval",
-    "prompt": "How do Convolutional Neural Networks (CNNs) capture spatial hierarchies through pooling layers and convolution kernels?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Compare SQL and NoSQL databases across schema design, scalability models, and consistency guarantees (CAP theorem context).",
+    "evaluation_criteria": {
+      "cap_theorem_alignment": "0-5 (Evaluates CP vs AP trade-off mapping)",
+      "structural_comparison": "0-5 (Evaluates relational vs document/key-value distinctions)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P019",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain the operation of load balancers using round-robin, least connections, and IP hash routing algorithms.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Explain how HTTPS establishes a secure connection using the TLS handshake protocol step by step.",
+    "evaluation_criteria": {
+      "handshake_steps": "0-5 (Evaluates client hello, certificate validation, key exchange)",
+      "cryptographic_precision": "0-5 (Evaluates asymmetry to symmetry session key shift)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P020",
     "category": "Knowledge Retrieval",
-    "prompt": "What is the difference between synchronous and asynchronous I/O models in high-performance network server programming?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Describe the mechanics of deadlock in operating systems and list the four necessary and sufficient Coffman conditions.",
+    "evaluation_criteria": {
+      "deadlock_definition": "0-5 (Evaluates circular wait and resource starvation)",
+      "coffman_conditions": "0-5 (Evaluates mutual exclusion, hold-and-wait, no preemption, circular wait)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P021",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe how dynamic programming differs from divide-and-conquer algorithms, providing examples of optimal substructure.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain the differences between process-based concurrency and thread-based concurrency, including memory space implications.",
+    "evaluation_criteria": {
+      "memory_isolation": "0-5 (Evaluates separate address spaces vs shared heap)",
+      "overhead_analysis": "0-5 (Evaluates context switching and creation cost)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P022",
     "category": "Knowledge Retrieval",
-    "prompt": "What are microservices architectures, and how do API gateways facilitate service discovery and authentication?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "What is database normalization? Explain 1NF, 2NF, and 3NF with a brief anomaly prevention rationale.",
+    "evaluation_criteria": {
+      "normalization_levels": "0-5 (Evaluates correct dependency rules for 1NF, 2NF, 3NF)",
+      "anomaly_rationale": "0-5 (Evaluates update, insertion, and deletion anomaly reduction)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P023",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain how instruction pipelining works in CPU architecture and how data hazards are resolved by hardware interlocks.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain the architecture of a RESTful API and detail what makes an API truly 'Richardson Maturity Level 3' (HATEOAS).",
+    "evaluation_criteria": {
+      "rest_constraints": "0-5 (Evaluates statelessness, cacheability, uniform interface)",
+      "hateoas_explanation": "0-5 (Evaluates hypermedia as the engine of application state)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P024",
     "category": "Knowledge Retrieval",
-    "prompt": "What is the role of an operating system kernel, and what are the primary architectural differences between monolithic and microkernel designs?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Describe how public-key infrastructure (PKI) and Certificate Authorities (CAs) establish trust on the modern web.",
+    "evaluation_criteria": {
+      "ca_role": "0-5 (Evaluates root and intermediate certificate signing)",
+      "chain_of_trust": "0-5 (Evaluates verification pipeline mechanics)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P025",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe how tokenization and byte-pair encoding (BPE) transform raw text strings into numerical tokens for transformer models.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Explain the mechanics of LRU (Least Recently Used) cache eviction policy and how a doubly linked list combined with a hash map achieves O(1) operations.",
+    "evaluation_criteria": {
+      "algorithm_logic": "0-5 (Evaluates eviction of oldest accessed items)",
+      "data_structure_synergy": "0-5 (Evaluates hash map lookup + linked list reordering for O(1))",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P026",
     "category": "Knowledge Retrieval",
-    "prompt": "What are design patterns in software engineering, and how does the Factory Method pattern encapsulate object instantiation?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "What are microservices architectures, and what are the primary trade-offs compared to monolithic architectures regarding network latency and data consistency?",
+    "evaluation_criteria": {
+      "architectural_tradeoffs": "0-5 (Evaluates decoupling benefits vs distributed system complexity)",
+      "consistency_discussion": "0-5 (Evaluates eventual consistency and network partitioning challenges)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P027",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain the concept of write-ahead logging (WAL) in database crash recovery and transaction durability.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain the concept of memory alignment in low-level programming (C/C++) and why unaligned memory access impacts CPU performance.",
+    "evaluation_criteria": {
+      "alignment_definition": "0-5 (Evaluates boundary alignment requirements)",
+      "performance_impact": "0-5 (Evaluates extra CPU cycles for unaligned word reads)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P028",
     "category": "Knowledge Retrieval",
-    "prompt": "What is cross-site scripting (XSS), and what are the distinctions between stored, reflected, and DOM-based vulnerabilities?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Describe the core stages of a typical instruction pipeline in computer architecture (Fetch, Decode, Execute, Memory, Writeback) and hazard types.",
+    "evaluation_criteria": {
+      "pipeline_stages": "0-5 (Evaluates accurate description of RISC pipeline steps)",
+      "hazard_identification": "0-5 (Evaluates data, control, and structural hazards)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P029",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe how Bluetooth low energy (BLE) protocol stacks manage advertising packets and connection intervals.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain how OAuth 2.0 Authorization Code Grant flow operates between a client app, authorization server, and resource server.",
+    "evaluation_criteria": {
+      "flow_accuracy": "0-5 (Evaluates redirect URI, auth code exchange, and token issuance)",
+      "security_mechanisms": "0-5 (Evaluates refresh tokens and client secret protection)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P030",
     "category": "Knowledge Retrieval",
-    "prompt": "What is the CAP theorem in distributed systems, and why must a distributed data store choose between consistency and availability during network partitions?",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "What is garbage collection tracing versus reference counting? Compare their memory overhead and handling of cyclic references.",
+    "evaluation_criteria": {
+      "tracing_vs_counting": "0-5 (Evaluates root-reachability vs reference tallying)",
+      "cyclic_handling": "0-5 (Evaluates how tracing handles self-referencing graphs)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P031",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain how public cloud providers implement multi-tenancy isolation across shared physical compute and storage hardware.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Analyze the Linux kernel Completely Fair Scheduler (CFS). Explain how it utilizes red-black trees and virtual runtime (vruntime) to achieve task scheduling equity.",
+    "evaluation_criteria": {
+      "algorithm_depth": "0-5 (Evaluates deep technical understanding of CFS internals)",
+      "vruntime_mechanics": "0-5 (Evaluates precise explanation of red-black tree ordering and CPU weight)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P032",
     "category": "Knowledge Retrieval",
-    "prompt": "What is continuous integration and continuous deployment (CI/CD), and how do automated testing gates protect production environments?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Describe the architecture of Raft consensus algorithm. Detail how leader election and log replication function during a network partition split-brain scenario.",
+    "evaluation_criteria": {
+      "consensus_precision": "0-5 (Evaluates state machine replication correctness)",
+      "split_brain_resolution": "0-5 (Evaluates quorum majority rules and term increments)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P033",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe the inner workings of depth-first search (DFS) and breadth-first search (BFS) graph traversal algorithms.",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Explain the internals of B+ Trees used in database indexing. Contrast node organization in B+ Trees versus standard B-Trees regarding sequential range queries.",
+    "evaluation_criteria": {
+      "btree_structure": "0-5 (Evaluates pointer leaf linkage and internal node key storage)",
+      "range_query_efficiency": "0-5 (Evaluates why B+ trees excel at sequential disk scans)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P034",
     "category": "Knowledge Retrieval",
-    "prompt": "What are web sockets, and how do they differ from HTTP persistent connections in terms of full-duplex communication overhead?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Examine CPU cache coherence protocols (specifically MESI/MOESI). How do cache lines transition between Modified, Exclusive, Shared, and Invalid states during multi-core write operations?",
+    "evaluation_criteria": {
+      "protocol_accuracy": "0-5 (Evaluates state transition precision)",
+      "bus_snooping": "0-5 (Evaluates multi-core synchronization mechanics)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P035",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain how garbage collection tracking works using reference counting versus mark-and-sweep algorithms in managed runtimes.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Explain the internals of LSM-Trees (Log-Structured Merge-Trees) used in modern NoSQL databases (e.g., Cassandra, RocksDB). Detail MemTables, SSTables, and compaction processes.",
+    "evaluation_criteria": {
+      "architecture_depth": "0-5 (Evaluates write-optimized storage mechanics)",
+      "compaction_explanation": "0-5 (Evaluates background merge and tombstone handling)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P036",
     "category": "Knowledge Retrieval",
-    "prompt": "What is the role of network firewalls, and how do stateful packet inspection firewalls differ from traditional static packet filters?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Detail the mechanics of TCP congestion control algorithms (specifically TCP Cubic or BBR). How do they differentiate between packet loss due to network congestion versus wireless link corruption?",
+    "evaluation_criteria": {
+      "congestion_mechanics": "0-5 (Evaluates window growth functions and bandwidth-delay product)",
+      "loss_differentiation": "0-5 (Evaluates advanced feedback modeling)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P037",
     "category": "Knowledge Retrieval",
-    "prompt": "Describe how semantic search engines utilize vector embeddings and cosine similarity metrics to retrieve contextually relevant documents.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Explain how modern Just-In-Time (JIT) compilers in engines like V8 optimize dynamic language execution using inline caching and hidden classes (shapes).",
+    "evaluation_criteria": {
+      "hidden_class_mechanics": "0-5 (Evaluates property offset optimization)",
+      "inline_caching": "0-5 (Evaluates polymorphic vs monomorphic site optimizations)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P038",
     "category": "Knowledge Retrieval",
-    "prompt": "What is thread starvation in multi-threaded programming, and how do priority inversion issues manifest in real-time operating systems?",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Examine distributed transaction two-phase commit (2PC) and three-phase commit (3PC) protocols. Why is 2PC considered a blocking protocol, and how does Paxos/Raft differ in partition tolerance?",
+    "evaluation_criteria": {
+      "protocol_analysis": "0-5 (Evaluates coordinator failure vulnerability in 2PC)",
+      "consensus_comparison": "0-5 (Evaluates quorum resilience over blocking commits)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P039",
     "category": "Knowledge Retrieval",
-    "prompt": "Explain the mechanics of JSON Web Tokens (JWT), detailing header, payload signature generation, and stateless authentication risks.",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Describe the architecture of GPU streaming multiprocessors (SMs) and SIMT (Single Instruction, Multiple Threads) execution model, detailing warp divergence.",
+    "evaluation_criteria": {
+      "simt_architecture": "0-5 (Evaluates warp scheduling and execution concurrency)",
+      "divergence_handling": "0-5 (Evaluates serialization penalty on conditional branching)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P040",
     "category": "Knowledge Retrieval",
-    "prompt": "What is source code refactoring, and how do automated refactoring tools preserve external behavior while improving internal structure?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Explain the internals of Linux namespaces and cgroups. How do container runtimes leverage these two kernel features to implement resource isolation and container sandboxing?",
+    "evaluation_criteria": {
+      "namespace_isolation": "0-5 (Evaluates PID, net, mnt, uts separation)",
+      "cgroup_accounting": "0-5 (Evaluates CPU, memory, and I/O throttling boundaries)",
+      "max_total_score": 10
+    }
   },
-
   {
     "id": "P041",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A small office has three servers. Server A processes 120 requests per minute and runs continuously. Server B processes 150 requests per minute but goes offline for 10 minutes every hour for maintenance. Server C processes 200 requests per minute but only runs during the final 30 minutes of every hour. Calculate the total combined requests handled by all three servers over a continuous 2-hour period.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "A logistics center schedules three trucks (A, B, C). Truck A departs every 4 hours, B every 6 hours, and C every 8 hours. If they all departed simultaneously at 00:00 on Monday, calculate the exact day and time of their next simultaneous departure, detailing each step of the least common multiple (LCM) calculation.",
+    "evaluation_criteria": {
+      "mathematical_accuracy": "0-5 (Evaluates correct calculation of LCM)",
+      "step_by_step_transparency": "0-5 (Evaluates clarity of logical breakdown)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P042",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] John leaves city X driving east at 45 mph. Two hours later, Sarah leaves city X driving east on the same route at 60 mph. At the exact same time Sarah leaves, David leaves a town 30 miles ahead of city X driving west toward city X at 50 mph. At what exact distance from city X will Sarah and David cross paths, and how long after John left does this occur?",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "An online store applies a 20% discount on an item priced at $150, followed by a 10% loyalty tax on the discounted price, and then a fixed $5 shipping fee. Calculate the final total cost step by step.",
+    "evaluation_criteria": {
+      "arithmetic_precision": "0-5 (Evaluates sequential percentage and addition accuracy)",
+      "logical_clarity": "0-5 (Evaluates step-by-step breakdown)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P043",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] If a cryptographic hashing function first splits a 512-bit block into four 128-bit words, applies a left-rotation of 3 bits to the second word, XORs it with the first word, and then adds the result modulo 2^32 to the fourth word, what is the transformation outcome if word 1 is 0x0000FFFF and word 2 is 0xF0F00F0F?",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "If 5 workers can assemble 20 machines in 4 days, how many days will it take 8 workers to assemble 32 machines, assuming constant productivity per worker?",
+    "evaluation_criteria": {
+      "proportional_reasoning": "0-5 (Evaluates correct rate calculation per worker-day)",
+      "step_logic": "0-5 (Evaluates clear multiplication/division steps)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P044",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] Four software engineers—Alice, Bob, Charlie, and Diana—are reviewing code modules 1 through 4. Each reviews a different module. Alice cannot review module 1 or 2. Bob must review a lower numbered module than Charlie. Diana reviews module 4. Determine which module each engineer reviews through step-by-step logical deduction.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "A train travels 120 km at 60 km/h, then encounters track maintenance and travels the next 80 km at 40 km/h. Calculate the total travel time and overall average speed for the entire trip.",
+    "evaluation_criteria": {
+      "time_calculation": "0-5 (Evaluates correct individual leg time computations)",
+      "average_speed_formula": "0-5 (Evaluates correct total distance divided by total time)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P045",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A manufacturing plant runs an assembly line where a widget passes through three distinct workstations. Station 1 takes 12 minutes per widget with a 5% defect rate that requires a 4-minute rework loop. Station 2 takes 8 minutes per widget with no rework. Station 3 takes 15 minutes per widget with a 10% defect rate requiring a 6-minute rework loop. If 100 widgets are initiated sequentially without batching, calculate the total cumulative processing and rework time for the batch to clear all stations.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "A storage tank is being filled by a pipe at a rate of 15 liters per minute while a leak drains it at 4 liters per minute. If the tank currently holds 200 liters and its capacity is 500 liters, calculate how many minutes it will take to reach full capacity.",
+    "evaluation_criteria": {
+      "net_rate_calculation": "0-5 (Evaluates correct net fill rate computation)",
+      "time_to_capacity": "0-5 (Evaluates correct division of remaining volume by net rate)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P046",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A company's cloud server costs scale according to a piecewise function: $0.05 per request for the first 10,000 requests, $0.03 per request for the next 40,000 requests, and $0.015 for any request exceeding 50,000. Additionally, a flat infrastructure fee of $200 is applied if total monthly requests exceed 25,000. Calculate the exact total cost for a month where 73,500 requests are processed.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "In a software development sprint, Developer Alice completes tasks twice as fast as Bob. Together, they complete a project backlog in 6 days. How many days would it take Alice working entirely alone?",
+    "evaluation_criteria": {
+      "rate_algebra": "0-5 (Evaluates combined work rate equation setup)",
+      "logical_deduction": "0-5 (Evaluates accurate final duration derivation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P047",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A relational database table contains 1,000,000 rows. A B-Tree index on column 'status' has a branching factor of 200 and a height of 3. If a query searches for a non-unique status value matching 5,000 rows, outline the sequential disk page access steps required by the query optimizer to retrieve all matching records assuming root caching.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "A company's server CPU usage starts at 35%. It increases by 15% during peak hours, drops by 25% when background jobs complete, and finally surges by 40% of that intermediate value during a batch sync. Calculate the final CPU usage percentage.",
+    "evaluation_criteria": {
+      "sequential_math": "0-5 (Evaluates precise percentage application order)",
+      "accuracy": "0-5 (Evaluates correct arithmetic output)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P048",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] Three network routers (R1, R2, R3) communicate using link-state routing packets. R1 updates its table every 5 seconds, R2 updates every 8 seconds, and R3 updates every 12 seconds. If they all broadcast an update simultaneously at t = 0 seconds, at what precise second interval will all three routers broadcast an update simultaneously again within the first two minutes?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "A rectangular data center room measures 12 meters by 8 meters. Server racks take up 40% of the floor space. If each server rack requires a minimum clearance zone equal to 25% of its own footprint, calculate the remaining usable floor space in square meters.",
+    "evaluation_criteria": {
+      "area_calculation": "0-5 (Evaluates total area and rack space computation)",
+      "clearance_logic": "0-5 (Evaluates correct application of clearance factor)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P049",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] In an encryption token validation pipeline, a string is first reversed, then every vowel is shifted forward by 2 positions in the alphabet (wrapping z to b), then the string is split in half and the two halves are swapped. Trace this exact transformation step-by-step for the input string 'DEVELOPER' and provide the final string.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "An API gateway processes requests with a base latency of 15ms plus 2ms per middleware layer executed. If request type Alpha passes through 3 layers and request type Beta passes through 7 layers, compute the latency difference and total time for 100 requests of each type processed sequentially.",
+    "evaluation_criteria": {
+      "latency_computation": "0-5 (Evaluates individual request latency math)",
+      "aggregate_computation": "0-5 (Evaluates multiplication across 100 requests)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P050",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] An investment fund allocates capital across three tech portfolios: Alpha, Beta, and Gamma. Alpha returns 12% annually but has a 4% volatility penalty deduction. Beta returns 8% with a 1% volatility penalty. Gamma returns 15% with a 9% volatility penalty. If $100,000 is split evenly initially, but after year 1 profits are reinvested such that 50% goes to the highest net-performing portfolio and 25% to each of the others, compute the exact portfolio distributions at the start of year 3.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "A battery backup unit provides 12 hours of power when drawing 50 watts. Calculate how many hours of backup it will provide if the load increases to 150 watts, assuming a non-linear Peukert efficiency exponent of 1.1.",
+    "evaluation_criteria": {
+      "capacity_scaling": "0-5 (Evaluates power-time invariant calculation)",
+      "exponent_application": "0-5 (Evaluates Peukert equation logic)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P051",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A file system uses 4KB blocks. A file size is 1,250,000 bytes. Each direct block pointer takes 4 bytes, and an indirect block pointer table holds 1,024 pointers. Calculate the exact number of disk block reads required to read byte offset 800,000 of this file from disk assuming no caching.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "A project budget allocates $40,000 for software licenses, $60,000 for hardware, and $50,000 for cloud hosting. If software costs increase by 10%, hardware decreases by 5%, and cloud hosting remains unchanged, calculate the net percentage change of the total budget.",
+    "evaluation_criteria": {
+      "baseline_summation": "0-5 (Evaluates initial total cost computation)",
+      "percentage_net_change": "0-5 (Evaluates revised total and net percentage shift)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P052",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A robotic arm is programmed to assemble a circuit board using four sequential coordinates: (0,0), (5,12), (15,24), and (30,48). If the arm moves at a constant linear speed of 5 units per second, but pauses for 2 seconds at each coordinate point before moving to the next, calculate the total elapsed time from start to completion.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Three microservices report error rates: Service X fails 2% of 5,000 requests; Service Y fails 1.5% of 8,000 requests; Service Z fails 3% of 2,000 requests. Calculate the overall system error rate across all combined requests.",
+    "evaluation_criteria": {
+      "failed_request_sum": "0-5 (Evaluates correct failure counts per service)",
+      "overall_percentage": "0-5 (Evaluates total failures divided by total requests)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P053",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A cache replacement policy uses Least Recently Used (LRU) with a frame capacity of 4. Given the reference string sequence: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5. Calculate the total number of cache misses step-by-step.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "A database query cache has a hit ratio of 85% and takes 2ms to return data on a hit. A cache miss queries the disk, taking 45ms. Calculate the average query response time across 1,000 requests.",
+    "evaluation_criteria": {
+      "weighted_average_math": "0-5 (Evaluates hit vs miss latency weighting)",
+      "arithmetic_accuracy": "0-5 (Evaluates correct final average time)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P054",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A software team estimates that feature development takes 14 days with an error variance of 3 days, testing takes 6 days with an error variance of 1 day, and deployment takes 2 days with zero variance. Using standard critical path method calculations, determine the probability range that the project finishes within 22 days assuming normal distribution.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "An automated CI/CD pipeline runs three sequential stages: Linting (takes 45 seconds), Unit Testing (takes 3 minutes 20 seconds), and Docker Image Build (takes 5 minutes 10 seconds). If 15 code commits are pushed consecutively throughout a workday, calculate the total cumulative pipeline execution time in hours and minutes.",
+    "evaluation_criteria": {
+      "stage_summation": "0-5 (Evaluates single pipeline run duration calculation)",
+      "multiplication_and_conversion": "0-5 (Evaluates correct conversion to hours and minutes)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P055",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] Evaluate the logical truth value step-by-step for the following compound statement: If P is true, Q is false, R is true, and S is false, determine the truth value of: ((P OR Q) AND NOT(R AND S)) IMPLIES (NOT P OR (Q EQUIV S)).",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "A data streaming pipeline ingests records across four partitions. Partition 1 receives 450 records/sec with 99% validity; Partition 2 receives 600 records/sec with 95% validity; Partition 3 receives 300 records/sec with 98% validity; Partition 4 receives 750 records/sec with 90% validity. Calculate the weighted average validity percentage across all ingested streams.",
+    "evaluation_criteria": {
+      "valid_record_sum": "0-5 (Evaluates accurate valid record multiplication per partition)",
+      "weighted_average": "0-5 (Evaluates total valid records divided by total ingestion rate)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P056",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A packet transmission channel drops 2% of packets independently. If a sender transmits a batch of 5 packets, and requires an automatic repeat request (ARQ) acknowledgment round for any dropped packet which adds 3 milliseconds of delay per retry, calculate the expected total transmission time for the batch if base transmission takes 10ms.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "A financial algorithm processes transactions in batches. Batch A contains 500 transactions averaging $120 each with a standard deviation of $15. Batch B contains 300 transactions averaging $150 each with a standard deviation of $20. Calculate the combined grand mean of all 800 transactions.",
+    "evaluation_criteria": {
+      "grand_mean_formula": "0-5 (Evaluates correct weighted average of means)",
+      "step_transparency": "0-5 (Evaluates clear mathematical breakdown)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P057",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] Three containers X, Y, and Z hold water in a ratio of 2:3:5. First, 20% of container X is poured into Y. Second, 10% of container Y is poured into Z. Finally, 5 liters are removed from container Z. If container Z ends up with 48.5 liters, calculate the initial volume of all three containers combined.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "In a RAID 5 disk array comprising four 2TB drives, calculate the total usable storage capacity and determine how many individual drives can fail simultaneously without data loss. Explain the parity calculation logic.",
+    "evaluation_criteria": {
+      "capacity_calculation": "0-5 (Evaluates N-1 usable space formula)",
+      "fault_tolerance_logic": "0-5 (Evaluates single-drive failure resilience and XOR parity explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P058",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A sorting algorithm takes an array of 8 integers: [15, 3, 9, 8, 5, 2, 11, 4]. Trace the exact state of the array after the second complete pass of a standard Bubble Sort algorithm.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "An encryption routine splits a secret key into 5 shares using Shamir's Secret Sharing scheme over a finite field, requiring a threshold of 3 shares to reconstruct. If 2 shares are compromised by an attacker, calculate the mathematical information leakage regarding the master key.",
+    "evaluation_criteria": {
+      "information_theoretic_accuracy": "0-5 (Evaluates understanding of (k, n) threshold security)",
+      "leakage_deduction": "0-5 (Evaluates proof that fewer than k shares reveal zero entropy reduction)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P059",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A smart home thermostat increases temperature by 1 degree every 4 minutes when below the target, and cools by 1 degree every 6 minutes when above. Starting at 18 degrees with a target of 22 degrees, but experiencing an external drop of 1 degree every 15 minutes, calculate the exact time required to reach and stabilize at the target temperature.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "A cloud provider charges $0.08 per GB-month for storage and $0.12 per GB for outbound data transfer. System A stores 500GB and transfers 2TB monthly. System B stores 2TB and transfers 300GB monthly. Calculate the exact annual cost for both systems and determine which is more cost-effective.",
+    "evaluation_criteria": {
+      "unit_conversion": "0-5 (Evaluates correct conversion between GB and TB)",
+      "cost_computation": "0-5 (Evaluates annual calculation accuracy and comparison)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P060",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A company distributes annual bonuses based on a multi-tier formula: base performance score multiplied by tenure in years, plus a project leadership weight. Employee Alpha has score 8, tenure 4, leadership 12. Employee Beta has score 9, tenure 3, leadership 15. Employee Gamma has score 7, tenure 6, leadership 10. If the total bonus pool is $50,000 distributed proportionally, calculate the exact monetary bonus received by Employee Beta.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "A web server experiences Poisson-distributed traffic arriving at an average rate of 120 requests per minute. Calculate the probability that exactly 3 requests arrive in a given 1-second window, showing all factorial and exponential formula steps.",
+    "evaluation_criteria": {
+      "lambda_adjustment": "0-5 (Evaluates correct conversion of rate per minute to per second)",
+      "poisson_formula_application": "0-5 (Evaluates correct probability computation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P061",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A binary search tree is constructed by inserting the following keys in sequence: 50, 30, 70, 20, 40, 60, 80, 35. Trace the step-by-step tree rebalancing or node traversal path required to find node 35, and state its exact depth.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "A neural network layer has 512 input features and 128 output neurons with bias terms enabled. Calculate the exact total number of trainable model parameters (weights and biases) in this layer.",
+    "evaluation_criteria": {
+      "weight_calculation": "0-5 (Evaluates input times output multiplication)",
+      "bias_addition": "0-5 (Evaluates correct addition of bias per neuron)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P062",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] An autonomous delivery drone consumes battery power at a rate of 1.5% per minute when hovering, 0.8% per minute when cruising forward, and 2.5% per minute when ascending. On a delivery run, it hovers for 4 minutes, cruises forward for 12 minutes, ascends for 3 minutes, hovers for 2 more minutes, and cruises back for 10 minutes. If it starts with 100% battery, calculate the exact remaining battery percentage upon landing.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "A cache replacement policy evaluates 4 blocks with access frequencies: Block 1 (freq 4, last used 10 mins ago), Block 2 (freq 12, last used 2 mins ago), Block 3 (freq 8, last used 1 min ago), Block 4 (freq 3, last used 30 secs ago). Using an Adaptive Replacement Cache (ARC) weighting heuristic combining frequency and recency, determine which block is evicted.",
+    "evaluation_criteria": {
+      "heuristic_evaluation": "0-5 (Evaluates frequency-recency weight balance)",
+      "eviction_justification": "0-5 (Evaluates logical selection of candidate block)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P063",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A scheduling system processes jobs with dependencies: Job B requires Job A to finish. Job C requires Job B. Job D requires Job A and Job E. Job E has no prerequisites and takes 5 hours. Job A takes 3 hours. Job B takes 2 hours. Job C takes 4 hours. Job D takes 1 hour. Assuming infinite parallel worker threads, calculate the total minimum project completion time.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "A multi-region database replication setup experiences a network partition. Region A processes 500 writes, while Region B processes 300 writes concurrently. When the partition heals using a Last-Write-Wins (LWW) timestamp conflict resolution strategy, calculate the final data divergence count assuming 120 keys overlapped with conflicting timestamps.",
+    "evaluation_criteria": {
+      "conflict_resolution_logic": "0-5 (Evaluates LWW timestamp overwrite mechanics)",
+      "divergence_analysis": "0-5 (Evaluates data loss and overwrite quantification)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P064",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A cryptographic stream cipher generates pseudo-random bytes using an LFSR (Linear Feedback Shift Register) initialized with state 11010. Trace the exact output bit sequence generated after 5 clock shifts with feedback taps at bits 5 and 3.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "An asynchronous message queue processes jobs across 8 worker threads. Job sizes are: 4 jobs taking 10s each, 6 jobs taking 5s each, and 2 jobs taking 25s each. Assuming optimal thread allocation, calculate the total makespan (total completion time) for the batch.",
+    "evaluation_criteria": {
+      "workload_distribution": "0-5 (Evaluates optimal assignment across 8 threads)",
+      "makespan_calculation": "0-5 (Evaluates correct maximum thread completion time)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P065",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] Three microservices communicate in a pipeline. Service 1 handles requests with a latency mean of 20ms and standard deviation of 4ms. Service 2 has a mean of 30ms and standard deviation of 6ms. Service 3 has a mean of 15ms and standard deviation of 3ms. Assuming independent normal distributions, calculate the total end-to-end latency threshold under which 95% of requests will complete.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "A hash table uses open addressing with linear probing and has a capacity of 100 slots. If 75 keys are inserted, calculate the theoretical expected number of probes for a successful search assuming uniform hashing.",
+    "evaluation_criteria": {
+      "load_factor_computation": "0-5 (Evaluates alpha = 0.75 calculation)",
+      "formula_application": "0-5 (Evaluates correct linear probing expected probe formula 0.5 * (1 + 1/(1-alpha)))",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P066",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A bank interest calculation compounds daily at an annual rate of 5.5% for an initial principal of $10,000, but subtracts a $2 monthly account maintenance fee at the end of each 30-day block. Calculate the exact account balance after 90 days (three 30-day blocks).",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "A network switch port handles packets with an MTU of 1500 bytes. If a data stream of 45,000 payload bytes is transmitted over IPv4 (requiring 20 bytes header) and TCP (requiring 20 bytes header), calculate the exact number of fragmented packets generated and total wire overhead.",
+    "evaluation_criteria": {
+      "mtu_fragmentation_math": "0-5 (Evaluates packet splitting alignment with header sizes)",
+      "overhead_computation": "0-5 (Evaluates total header byte summation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P067",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A network packet analyzer captures a window of frames where source IP addresses rotate among 192.168.1.10, 192.168.1.15, and 192.168.1.20 in a repeating cyclic pattern. If frame 1 originates from .10, determine the exact source IP address of frame 147.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "A software release pipeline has a cumulative defect detection probability of 85% during automated unit testing, 70% during integration testing, and 90% during QA user acceptance testing. Calculate the overall end-to-end defect leakage probability if 40 total latent bugs exist.",
+    "evaluation_criteria": {
+      "probability_chain": "0-5 (Evaluates multiplicative filtering stages)",
+      "latent_bug_computation": "0-5 (Evaluates expected remaining undetected bugs)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P068",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A software license key validation algorithm multiplies the sum of the ASCII values of even-indexed characters by 7, subtracts the product of the odd-indexed characters modulo 100, and verifies if the result equals a checksum integer. Trace this validation step-by-step for key 'AB12'.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "An enterprise cluster runs 3 tiers of virtual machines: Web tier (16 VMs at 2 vCPU each), App tier (32 VMs at 4 vCPU each), and DB tier (8 VMs at 16 vCPU each). If hypervisor overcommitment ratio is set to 2.5:1, calculate the physical host CPU core count required.",
+    "evaluation_criteria": {
+      "virtual_cpu_sum": "0-5 (Evaluates total vCPU aggregation across tiers)",
+      "overcommitment_division": "0-5 (Evaluates physical core requirement calculation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P069",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A server rack draws 450 watts under idle state, 900 watts under medium load, and 1,500 watts under heavy load. Over a 24-hour workday, the rack spends 8 hours idle, 12 hours under medium load, and 4 hours under heavy load. Calculate total energy consumption in kilowatt-hours (kWh) and total electricity cost at $0.12 per kWh.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "A token bucket rate limiter has a capacity of 100 tokens and refills at a steady rate of 10 tokens per second. If a burst of 150 requests arrives instantaneously at t=0, followed by a steady rate of 5 requests per second from t=1 to t=10, calculate the total number of allowed versus dropped requests.",
+    "evaluation_criteria": {
+      "burst_handling": "0-5 (Evaluates initial token consumption and drop count)",
+      "refill_simulation": "0-5 (Evaluates token accumulation over subsequent seconds)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P070",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A file transfer protocol divides a 50MB file into 500 equal packets. Due to network congestion, packets 100 through 105 are dropped and must be retransmitted in a secondary batch alongside a 2-packet overhead verification header. Calculate the exact total number of packets transmitted across the network.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "A distributed log aggregation system compresses log batches. Raw text size is 50MB. Compression stage 1 reduces size by 60%; stage 2 further reduces the remaining size by 40%; network serialization adds a 5% metadata header to the final compressed size. Calculate the final transmitted payload size in megabytes.",
+    "evaluation_criteria": {
+      "sequential_reduction": "0-5 (Evaluates percentage reduction steps)",
+      "header_addition": "0-5 (Evaluates correct metadata addition)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P071",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] Evaluate the time complexity step-by-step for a nested loop where the outer loop runs N times, and the inner loop runs $i^2$ times where $i$ is the current outer loop index. Derive the exact asymptotic polynomial expression.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Solve the following multi-hop scheduling puzzle: Five tasks (T1, T2, T3, T4, T5) have execution times of 2, 4, 1, 5, and 3 hours respectively. Dependencies: T1 must finish before T2 and T3 can start; T3 must finish before T4 starts; T2 and T4 must both finish before T5 can start. Assuming a single processor core, determine the optimal critical path schedule, start/end times for each task, and the total minimum completion time.",
+    "evaluation_criteria": {
+      "dependency_resolution": "0-5 (Evaluates strict adherence to graph prerequisites)",
+      "critical_path_accuracy": "0-5 (Evaluates precise calculation of task timelines and total duration)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P072",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A mobile app user session expires after 15 minutes of inactivity. User actions occur at minute 3, minute 11, minute 22, and minute 31. Determine the exact timestamps when session expiration resets occur and whether the session remains active at minute 40.",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Analyze a distributed deadlock scenario involving three transactions (TxA, TxB, TxC) and three resources (Res1, Res2, Res3). TxA holds Res1 and waits for Res2; TxB holds Res2 and waits for Res3; TxC holds Res3 and requests Res1. Construct the Wait-For Graph (WFG), identify the cycle, and determine the optimal transaction abort sequence to minimize rollback cost, given TxA rollback cost is 50, TxB is 30, and TxC is 80.",
+    "evaluation_criteria": {
+      "wfg_construction": "0-5 (Evaluates accurate graph representation of resource contention)",
+      "rollback_optimization": "0-5 (Evaluates selection of minimum cost transaction to break cycle)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P073",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] Three inventory depots hold computer monitors. Depot Alpha transfers 15 monitors to Beta. Beta transfers 10 monitors to Gamma. Gamma transfers 5 monitors back to Alpha. If all depots end up with exactly 50 monitors each, calculate their initial monitor counts before any transfers took place.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Perform multi-hop network routing calculation using Dijkstra's algorithm on a graph with 5 nodes (A, B, C, D, E). Edge weights: A-B(4), A-C(2), B-C(1), B-D(5), C-D(8), C-E(10), D-E(2). Find the shortest path and exact cumulative distance from Node A to Node E, showing state tables for each iteration.",
+    "evaluation_criteria": {
+      "algorithm_steps": "0-5 (Evaluates correct traversal table updates)",
+      "shortest_path_accuracy": "0-5 (Evaluates accurate optimal path and total distance)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P074",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A machine learning model training job takes 4 hours for epoch 1, and each subsequent epoch takes 5% less time than the previous one due to optimized data caching. Calculate the total cumulative training time required to complete 5 full epochs.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "A virtual memory paging system has 3 page frames and a reference string: 7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2. Compare the total page fault count between FIFO, LRU, and Optimal page replacement algorithms, detailing page frame contents at each step.",
+    "evaluation_criteria": {
+      "fifo_simulation": "0-5 (Evaluates correct FIFO fault count)",
+      "lru_optimal_simulation": "0-5 (Evaluates precise LRU and Optimal tracking tables)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P075",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A logistics database records truck route coordinates as grid vectors. Truck 1 moves vector (3, 4) then vector (-1, 2). Truck 2 moves vector (2, -3) then vector (4, 5). Calculate the exact Euclidean distance between the final resting positions of Truck 1 and Truck 2.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "A multi-threaded banking ledger processes concurrent deposits and withdrawals. Thread 1 executes 500 deposits of $10; Thread 2 executes 500 withdrawals of $10 on a shared account starting at $5,000 balance without locks. Analyze the race condition probability space, compute the possible final balance range, and design a fine-grained locking mechanism to guarantee atomicity.",
+    "evaluation_criteria": {
+      "race_condition_analysis": "0-5 (Evaluates interleaved read-modify-write hazard explanation)",
+      "locking_solution": "0-5 (Evaluates correct mutex/spinlock integration)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P076",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A token bucket rate limiter allows 100 tokens with a refill rate of 10 tokens per second. Incoming burst requests arrive as follows: 50 requests at t=0, 30 requests at t=2s, and 40 requests at t=3s. Calculate the exact number of allowed versus rate-limited (dropped) requests step-by-step.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "An enterprise database uses snapshot isolation concurrency control. Transaction T1 reads record X at timestamp t=10. Transaction T2 updates record X and commits at t=12. Transaction T1 attempts to update record X at t=15. Evaluate the serialization conflict, determine whether T1 encounters a First-Committer-Wins write skew or abort, and trace the MVCC version chain traversal.",
+    "evaluation_criteria": {
+      "mvcc_conflict_detection": "0-5 (Evaluates write-write conflict recognition under snapshot isolation)",
+      "version_chain_analysis": "0-5 (Evaluates correct handling of older record snapshots)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P077",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A web application server processes incoming requests through three security filters in sequence: Filter A blocks requests with invalid signatures (10% drop), Filter B blocks malformed payloads (5% of remaining), and Filter C blocks rate violations (2% of remaining). Out of 10,000 initial requests, calculate the exact number of requests that successfully pass all three filters.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Design a capacity-planning calculation for a microservices architecture handling 50,000 peak requests per second. Each request triggers 4 downstream RPC calls with an average payload of 25 KB. Calculate total network bandwidth throughput in Gbps, required CPU cores assuming 1 core handles 2,500 RPCs/sec, and memory footprint assuming 4MB per active connection.",
+    "evaluation_criteria": {
+      "bandwidth_math": "0-5 (Evaluates correct aggregate throughput calculation)",
+      "resource_sizing": "0-5 (Evaluates accurate CPU and memory allocation formulas)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P078",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A software project bug backlog starts at 250 bugs. The QA team finds 15 new bugs per week, while developers fix 22 bugs per week. At the same time, due to legacy code refactoring, 4 latent hidden bugs are uncovered each week. Calculate the exact number of weeks required for the bug backlog to drop below 100 bugs.",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Evaluate a cryptographic hash collision attack scenario utilizing birthday paradox mathematics. Calculate the exact number of hashes required to achieve a 50% probability of finding a collision in a truncated hash output of 32 bits versus 64 bits.",
+    "evaluation_criteria": {
+      "birthday_formula": "0-5 (Evaluates correct application of square root approximation 1.2 * sqrt(N))",
+      "comparative_analysis": "0-5 (Evaluates security implications between 32-bit and 64-bit spaces)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P079",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A state machine for a login screen has states: Idle, Authenticating, Success, Locked. Transitions: Idle -> Authenticating on submit; Authenticating -> Success on valid token; Authenticating -> Locked on 3 failures. Trace the state sequence for a user who submits invalid credentials twice, then valid credentials on the third attempt.",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Analyze a complex network subnetting puzzle: An enterprise is allocated IP block 192.168.10.0/24. They require 4 subnets with host capacities of 60, 25, 12, and 4 hosts respectively. Calculate the exact CIDR notation, network address, broadcast address, and usable host IP range for each of the 4 subnets without overlapping.",
+    "evaluation_criteria": {
+      "variable_length_subnetting": "0-5 (Evaluates correct VLSM bit allocation)",
+      "ip_range_accuracy": "0-5 (Evaluates exact network and broadcast boundary calculations)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P080",
     "category": "Multi-step Reasoning",
-    "prompt": "[Tests H1] A distributed database replicates data across 5 nodes using quorum consensus with write quorum W=3 and read quorum R=3. If 2 nodes experience network partitioning, calculate whether write operations and read operations can still successfully execute, showing the quorum overlap math.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "A distributed consensus cluster consists of 5 Raft nodes. During an active leader election, 2 nodes experience simultaneous network isolation (partitioned from the majority). Calculate the quorum threshold required, determine if a new leader can be successfully elected, and explain log catch-up mechanics when the partitioned nodes reconnect.",
+    "evaluation_criteria": {
+      "quorum_logic": "0-5 (Evaluates majority calculation in 5-node cluster)",
+      "partition_resilience": "0-5 (Evaluates leader election continuity and log replication reconciliation)",
+      "max_total_score": 10
+    }
   },
-
   {
     "id": "P081",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a professional email to a university professor asking for an extension on a final project submission. CONSTRAINT 1: You must not use the letter 'e' or 'E' anywhere in the response. CONSTRAINT 2: The total response must be exactly three paragraphs long.",
-    "difficulty_level": "High"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Optimize a complex SQL query execution plan involving a 3-way join between Customers, Orders, and OrderItems tables with filtering and aggregation. Construct the relational algebra tree, evaluate nested-loop join versus hash join cost complexity, and recommend optimal composite index placement.",
+    "evaluation_criteria": {
+      "algebra_tree": "0-5 (Evaluates relational operator pushdown accuracy)",
+      "cost_analysis": "0-5 (Evaluates algorithmic join complexity and indexing strategy)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P082",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Summarize the concept of object-oriented programming in exactly two sentences. CONSTRAINT: Every single word in your response must start with a vowel (A, E, I, O, U).",
-    "difficulty_level": "High"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Analyze a garbage collection tuning problem in a high-throughput Java application generating 2GB of short-lived objects per minute. The young generation Eden space is set to 4GB. Calculate the minor GC frequency, estimate promotion rates to old generation given a 15% survival rate, and compute JVM pause time implications.",
+    "evaluation_criteria": {
+      "allocation_rate_math": "0-5 (Evaluates eden space saturation timing)",
+      "promotion_computation": "0-5 (Evaluates old gen accumulation modeling)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P083",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Provide instructions on how to boil an egg. CONSTRAINT 1: Do not use numbers or digits. CONSTRAINT 2: Format your entire output as a single valid Markdown table with columns 'Step Number' and 'Action Description'.",
-    "difficulty_level": "Medium"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Design a multi-tier caching strategy (L1 in-memory LRU, L2 distributed Redis, L3 database) for an e-commerce product catalog. Calculate cache hit/miss latency formulas, write-through vs write-back consistency trade-offs under high concurrency, and cache stampede mitigation using probabilistic early expiration.",
+    "evaluation_criteria": {
+      "latency_modeling": "0-5 (Evaluates layered response time calculation)",
+      "stampede_mitigation": "0-5 (Evaluates mutex locking and XFetch algorithm integration)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P084",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a short story about an AI discovering creativity. CONSTRAINT 1: Exactly 50 words long. CONSTRAINT 2: Every sentence must end with an exclamation mark (!).",
-    "difficulty_level": "High"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Perform a security threat-modeling exercise (STRIDE framework) for an online banking payment gateway. Identify 2 specific threats for each of the 6 STRIDE categories, map each threat to a vulnerability vector, and propose definitive cryptographic or architectural mitigations.",
+    "evaluation_criteria": {
+      "stride_mapping": "0-5 (Evaluates correct application across Spoofing, Tampering, Repudiation, Info Disclosure, Denial of Service, Elevation of Privilege)",
+      "mitigation_quality": "0-5 (Evaluates security architecture robustness)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P085",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain cloud computing. CONSTRAINT 1: Use only words that contain 4 letters or fewer. CONSTRAINT 2: Do not use punctuation marks other than periods.",
-    "difficulty_level": "High"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Analyze a CPU branch predictor failure scenario. A loop contains an unpredictable conditional statement with a 50% branching probability. If the pipeline depth is 15 stages and misprediction penalty is 12 cycles, compute the effective CPI (Cycles Per Instruction) degradation across 10,000 iterations.",
+    "evaluation_criteria": {
+      "penalty_calculation": "0-5 (Evaluates correct misprediction probability weighting)",
+      "cpi_computation": "0-5 (Evaluates pipeline throughput loss quantification)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P086",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] List three primary colors. CONSTRAINT 1: Format as a bulleted list. CONSTRAINT 2: Reverse spell each color name (e.g., Red becomes deR).",
-    "difficulty_level": "Medium"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "A distributed stream processing engine (e.g., Apache Kafka / Flink) processes event timestamps with out-of-order latency up to 15 seconds. Design a watermarking windowing strategy with a 10-second allowed lateness threshold, detailing how late-arriving events are handled using side outputs.",
+    "evaluation_criteria": {
+      "watermark_logic": "0-5 (Evaluates event-time progress tracking and lag tolerance)",
+      "late_event_handling": "0-5 (Evaluates side output routing and window state purging)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P087",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe the function of a compiler. CONSTRAINT 1: Your response must be written entirely in uppercase letters. CONSTRAINT 2: Include the word 'SYNTAX' exactly three times.",
-    "difficulty_level": "Medium"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Analyze the scaling bottlenecks of a centralized message broker handling 1,000,000 messages per second. Evaluate disk I/O write amplification using zero-copy system calls (sendfile), network interface card (NIC) interrupt mitigation, and consumer group rebalance storm prevention.",
+    "evaluation_criteria": {
+      "kernel_optimization": "0-5 (Evaluates zero-copy and direct memory access mechanics)",
+      "scaling_strategy": "0-5 (Evaluates partition assignment and rebalance protocol design)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P088",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a product review for a laptop. CONSTRAINT 1: Do not use the letter 'a' or 'A'. CONSTRAINT 2: Exactly four sentences.",
-    "difficulty_level": "High"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Solve a multi-server load balancing optimization problem: 3 servers have capacities of 100, 250, and 500 req/sec and current CPU loads of 40%, 60%, and 80%. Incoming traffic is 400 req/sec. Calculate the optimal traffic distribution using a weighted least-connections algorithm combined with predictive CPU headroom weighting.",
+    "evaluation_criteria": {
+      "algorithm_execution": "0-5 (Evaluates weighted distribution math)",
+      "headroom_adjustment": "0-5 (Evaluates dynamic capacity recalculation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P089",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain photosynthesis. CONSTRAINT 1: Every word in the response must start with the letter 'P' or 'p'. CONSTRAINT 2: Minimum 15 words.",
-    "difficulty_level": "High"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Examine a Zero-Knowledge Proof (ZKP) protocol conceptual workflow (e.g., zk-SNARKs). Explain how completeness, soundness, and zero-knowledge properties are mathematically maintained when proving knowledge of a discrete logarithm without revealing the secret exponent.",
+    "evaluation_criteria": {
+      "zkp_properties": "0-5 (Evaluates accurate definition of completeness, soundness, zero-knowledge)",
+      "mathematical_intuition": "0-5 (Evaluates polynomial evaluation and elliptic curve pairing logic)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P090",
-    "category": "Instruction Following",
-    "prompt": "[Tests H3] Provide a recipe for coffee. CONSTRAINT 1: Format strictly as a JSON array of strings, where each string is a step. CONSTRAINT 2: No introductory or concluding text outside the JSON block.",
-    "difficulty_level": "Medium"
+    "category": "Multi-step Reasoning",
+    "difficulty": "Hard",
+    "prompt": "Design an end-to-end telemetry observability architecture for a global cloud system. Detail metrics collection via Prometheus scrapers, log aggregation via Fluentbit, distributed tracing via OpenTelemetry context propagation, and anomaly detection correlation algorithms across time-series databases.",
+    "evaluation_criteria": {
+      "telemetry_pipeline": "0-5 (Evaluates pull vs push metrics and trace header propagation)",
+      "correlation_strategy": "0-5 (Evaluates root-cause analysis and alerting logic)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P091",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a greeting to a team. CONSTRAINT 1: Palindrome sentence structure (ignoring spaces). CONSTRAINT 2: Must mention the word 'code'.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Provide a summary of the OSI model layers. NEGATIVE CONSTRAINT: Do NOT mention the physical layer or the application layer anywhere in your response. Format the output strictly as a numbered list.",
+    "evaluation_criteria": {
+      "negative_constraint_adherence": "0-5 (Evaluates strict avoidance of forbidden layers)",
+      "formatting_adherence": "0-5 (Evaluates strict numbered list structure)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P092",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Discuss cyber security best practices. CONSTRAINT 1: Exactly five bullet points. CONSTRAINT 2: Each bullet point must start with a verb ending in 'ing'.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "List three benefits of cloud computing. NEGATIVE CONSTRAINT: Do not use the letter 'e' or 'E' anywhere in the response. Format as bullet points.",
+    "evaluation_criteria": {
+      "negative_constraint": "0-5 (Evaluates absolute absence of target character)",
+      "formatting": "0-5 (Evaluates bullet point structure)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P093",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain relational databases. CONSTRAINT 1: Zero occurrences of the letter 'i' or 'I'. CONSTRAINT 2: Exactly two paragraphs.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Explain what an algorithm is in two sentences. NEGATIVE CONSTRAINT: The response must not contain any punctuation marks except periods at the ends of sentences.",
+    "evaluation_criteria": {
+      "sentence_count": "0-5 (Evaluates exact two-sentence rule)",
+      "punctuation_constraint": "0-5 (Evaluates absence of commas, hyphens, or apostrophes)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P094",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a bug report summary. CONSTRAINT 1: Must contain an even number of words. CONSTRAINT 2: Do not use commas.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Name three popular programming languages. NEGATIVE CONSTRAINT: Output must be formatted strictly as a single line JSON array of strings.",
+    "evaluation_criteria": {
+      "json_validity": "0-5 (Evaluates parseable JSON format)",
+      "single_line": "0-5 (Evaluates absence of line breaks)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P095",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe artificial intelligence. CONSTRAINT 1: Every word must be alphabetically sorted by its length (shortest to longest words). CONSTRAINT 2: At least 10 words.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Describe the function of a compiler. NEGATIVE CONSTRAINT: Every single word in your response must start with a consonant letter.",
+    "evaluation_criteria": {
+      "consonant_start_rule": "0-5 (Evaluates every word starting with consonant)",
+      "semantic_meaning": "0-5 (Evaluates retention of compiler definition)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P096",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Outline a fitness routine. CONSTRAINT 1: Use Roman numerals (I, II, III, IV) for item markers. CONSTRAINT 2: Negative constraint: Do not use the word 'exercise'.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Write a short sentence about cybersecurity. NEGATIVE CONSTRAINT: Do not use any vowels (A, E, I, O, U, lowercase or uppercase).",
+    "evaluation_criteria": {
+      "vowel_exclusion": "0-5 (Evaluates strict absence of vowels)",
+      "readability_or_intent": "0-5 (Evaluates attempt at conveying meaning)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P097",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a Python code snippet comment header. CONSTRAINT 1: Exactly 10 words total. CONSTRAINT 2: Every word must have an even number of letters.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "List two web browsers. NEGATIVE CONSTRAINT: Each browser name must be spelled in reverse order. Format as a comma-separated list.",
+    "evaluation_criteria": {
+      "reversal_accuracy": "0-5 (Evaluates correct string reversal e.g., Chrome -> emorhC)",
+      "formatting": "0-5 (Evaluates comma-separated layout)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P098",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain recursion. CONSTRAINT 1: Your response must mirror itself structurally (first half words spelled backwards in second half). CONSTRAINT 2: Mention the word 'base'.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "State the boiling point of water. NEGATIVE CONSTRAINT: Your entire response must consist of exactly four words.",
+    "evaluation_criteria": {
+      "word_count": "0-5 (Evaluates exact four-word length)",
+      "factual_accuracy": "0-5 (Evaluates correct temperature statement)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P099",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a project status update. CONSTRAINT 1: Format as Markdown blockquote. CONSTRAINT 2: Do not use any vowels in the entire response except the letter 'o'.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Give a definition of RAM. NEGATIVE CONSTRAINT: Do not use the words 'memory', 'random', or 'access'.",
+    "evaluation_criteria": {
+      "forbidden_words": "0-5 (Evaluates absence of target words)",
+      "definition_quality": "0-5 (Evaluates clarity of volatile storage definition)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P100",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe data structures. CONSTRAINT 1: Exactly three sentences. CONSTRAINT 2: The second sentence must contain exactly 15 words.",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Name two database types. NEGATIVE CONSTRAINT: Both names must be enclosed in square brackets and separated by a semicolon.",
+    "evaluation_criteria": {
+      "bracket_formatting": "0-5 (Evaluates [Name1; Name2] structure)",
+      "accuracy": "0-5 (Evaluates correct database classifications)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P101",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write an apology for a delayed shipment. CONSTRAINT 1: Negative constraint: Do not use the words 'sorry', 'delay', or 'apologize'. CONSTRAINT 2: Exactly three sentences.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain the concept of encapsulation in object-oriented programming. NEGATIVE CONSTRAINT 1: Do not use the words 'data', 'hide', or 'class'. NEGATIVE CONSTRAINT 2: Format the output as a Markdown table with two columns: 'Concept' and 'Description'.",
+    "evaluation_criteria": {
+      "negative_constraints": "0-5 (Evaluates avoidance of forbidden words)",
+      "markdown_table": "0-5 (Evaluates precise table formatting)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P102",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain HTTP status codes. CONSTRAINT 1: Use only numbered lists. CONSTRAINT 2: Every status code mentioned must be a 3-digit number starting with 4.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Write a three-step guide on how to debug a software bug. NEGATIVE CONSTRAINT 1: Each step must start with an action verb ending in 'ing'. NEGATIVE CONSTRAINT 2: Do not use the letter 't' or 'T' anywhere in the response.",
+    "evaluation_criteria": {
+      "gerund_starters": "0-5 (Evaluates steps starting with -ing verbs)",
+      "forbidden_letter": "0-5 (Evaluates absence of letter t/T)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P103",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a motivation speech. CONSTRAINT 1: Every sentence must start with the exact same word: 'Rise'. CONSTRAINT 2: Exactly four sentences.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Describe the function of an operating system kernel. NEGATIVE CONSTRAINT 1: Maximum length of exactly 25 words. NEGATIVE CONSTRAINT 2: Must contain at least one number digit.",
+    "evaluation_criteria": {
+      "word_count_limit": "0-5 (Evaluates strict adherence to <= 25 words)",
+      "digit_inclusion": "0-5 (Evaluates presence of a number)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P104",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe machine learning. CONSTRAINT 1: Negative constraint: Do not use the letter 't' or 'T'. CONSTRAINT 2: Minimum 20 words.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Provide an overview of relational databases. NEGATIVE CONSTRAINT 1: Every sentence must contain exactly eight words. NEGATIVE CONSTRAINT 2: Do not use any lowercase letters; the entire response must be in UPPERCASE.",
+    "evaluation_criteria": {
+      "sentence_length": "0-5 (Evaluates exact eight words per sentence)",
+      "uppercase_rule": "0-5 (Evaluates ALL CAPS formatting)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P105",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a database query description. CONSTRAINT 1: Format strictly as XML tags `<query>` and `<description>`. CONSTRAINT 2: No markdown formatting blocks.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Explain how a hash function works. NEGATIVE CONSTRAINT 1: Do not use the words 'hash', 'key', or 'map'. NEGATIVE CONSTRAINT 2: Format as an XML snippet with root tag <explanation>.",
+    "evaluation_criteria": {
+      "forbidden_words": "0-5 (Evaluates absence of hash, key, map)",
+      "xml_formatting": "0-5 (Evaluates valid XML tags)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P106",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain network routing. CONSTRAINT 1: Every word must alternate between lowercase and uppercase letters (e.g., nEtWoRk). CONSTRAINT 2: At least 10 words.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Summarize the client-server architecture model. NEGATIVE CONSTRAINT 1: Do not use the letter 'a' or 'A'. NEGATIVE CONSTRAINT 2: Format as a bulleted list of three items.",
+    "evaluation_criteria": {
+      "negative_constraint": "0-5 (Evaluates absolute absence of letter a/A)",
+      "formatting": "0-5 (Evaluates bullet list)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P107",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a test case summary. CONSTRAINT 1: Exactly 7 words. CONSTRAINT 2: Last word must be 'passed'.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Detail the purpose of software unit testing. NEGATIVE CONSTRAINT 1: Do not use the words 'code', 'test', or 'bug'. NEGATIVE CONSTRAINT 2: Exactly two paragraphs.",
+    "evaluation_criteria": {
+      "forbidden_words": "0-5 (Evaluates avoidance of code, test, bug)",
+      "paragraph_count": "0-5 (Evaluates exact two paragraphs)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P108",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe agile methodology. CONSTRAINT 1: Negative constraint: Do not use the letters 's', 'p', or 'r'. CONSTRAINT 2: At least 15 words.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain multi-threading in software execution. NEGATIVE CONSTRAINT 1: Every word must be in alphabetical order within each sentence. NEGATIVE CONSTRAINT 2: Maximum two sentences.",
+    "evaluation_criteria": {
+      "alphabetical_word_order": "0-5 (Evaluates intra-sentence alphabetical ordering)",
+      "sentence_limit": "0-5 (Evaluates length constraint)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P109",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a server configuration instruction. CONSTRAINT 1: Format as a YAML key-value list. CONSTRAINT 2: Keys must be alphabetically sorted.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Describe version control branching. NEGATIVE CONSTRAINT 1: Do not use any punctuation marks. NEGATIVE CONSTRAINT 2: Must be written as a single continuous line of text.",
+    "evaluation_criteria": {
+      "punctuation_exclusion": "0-5 (Evaluates zero punctuation)",
+      "single_line": "0-5 (Evaluates absence of newlines)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P110",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain software testing. CONSTRAINT 1: Every word must be a valid English word with an odd number of letters. CONSTRAINT 2: At least 10 words.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain network packet routing. NEGATIVE CONSTRAINT 1: Do not use the letter 'e' or 'E'. NEGATIVE CONSTRAINT 2: Must contain a YAML code block.",
+    "evaluation_criteria": {
+      "negative_constraint": "0-5 (Evaluates avoidance of letter e/E)",
+      "yaml_block": "0-5 (Evaluates valid markdown YAML block inclusion)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P111",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a welcome message. CONSTRAINT 1: Must be a single line. CONSTRAINT 2: Must contain all 26 letters of the English alphabet at least once (pangram).",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Provide a brief description of object-oriented polymorphism. NEGATIVE CONSTRAINT 1: Do not use verbs. NEGATIVE CONSTRAINT 2: Format as a semicolon-delimited single line.",
+    "evaluation_criteria": {
+      "no_verbs": "0-5 (Evaluates noun/adjective phrase structure)",
+      "semicolon_format": "0-5 (Evaluates single line semicolon layout)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P112",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe operating systems. CONSTRAINT 1: Negative constraint: Do not use any punctuation marks whatsoever. CONSTRAINT 2: Exactly twenty words.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain API authentication. NEGATIVE CONSTRAINT 1: Do not use the word 'token'. NEGATIVE CONSTRAINT 2: Exactly 30 words in total.",
+    "evaluation_criteria": {
+      "forbidden_word": "0-5 (Evaluates avoidance of 'token')",
+      "word_count": "0-5 (Evaluates exact 30-word length)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P113",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a release notes changelog. CONSTRAINT 1: Format using Markdown table. CONSTRAINT 2: Exactly three rows of data with columns 'Version', 'Date', and 'Status'.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Describe cloud storage redundancy. NEGATIVE CONSTRAINT 1: Every sentence must start with the exact word 'Data'. NEGATIVE CONSTRAINT 2: Exactly three sentences.",
+    "evaluation_criteria": {
+      "sentence_starter": "0-5 (Evaluates starting each sentence with 'Data')",
+      "sentence_count": "0-5 (Evaluates exact three sentences)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P114",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain cloud storage. CONSTRAINT 1: Every sentence must contain exactly eight words. CONSTRAINT 2: Exactly three sentences total.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain software container orchestration. NEGATIVE CONSTRAINT 1: Do not use any words longer than 6 characters. NEGATIVE CONSTRAINT 2: Format as bullet points.",
+    "evaluation_criteria": {
+      "word_length_limit": "0-5 (Evaluates strict adherence to <= 6 char words)",
+      "formatting": "0-5 (Evaluates bullet points)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P115",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a cybersecurity warning. CONSTRAINT 1: Negative constraint: Do not use the word 'secure' or 'security'. CONSTRAINT 2: Exactly two paragraphs.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Detail database indexing. NEGATIVE CONSTRAINT 1: Do not use the letter 's' or 'S'. NEGATIVE CONSTRAINT 2: Write in poetic stanza format.",
+    "evaluation_criteria": {
+      "negative_constraint": "0-5 (Evaluates absolute absence of letter s/S)",
+      "poetry_format": "0-5 (Evaluates stanza layout)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P116",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe version control. CONSTRAINT 1: All words must be ordered in reverse alphabetical order from Z to A. CONSTRAINT 2: At least 8 words.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Write a technical overview of cloud computing security models. NEGATIVE CONSTRAINT 1: Do not use the word 'security' or its plural form. NEGATIVE CONSTRAINT 2: Every sentence must start with a vowel letter (A, E, I, O, U). Format the output as exactly three paragraphs.",
+    "evaluation_criteria": {
+      "negative_constraint_1": "0-5 (Evaluates absolute absence of forbidden keywords)",
+      "negative_constraint_2": "0-5 (Evaluates syntactic compliance of sentence starters)",
+      "structural_formatting": "0-5 (Evaluates exact three-paragraph layout)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P117",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write a performance metric report. CONSTRAINT 1: Format as comma-separated values (CSV) text block only. CONSTRAINT 2: Four columns: Metric,Value,Target,Status.",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Explain asynchronous event loops in programming. NEGATIVE CONSTRAINT 1: Alternate sentence cases (Sentence 1 lowercase only, Sentence 2 UPPERCASE only, Sentence 3 lowercase only). NEGATIVE CONSTRAINT 2: Do not use the letter 'e'. NEGATIVE CONSTRAINT 3: Exactly four sentences.",
+    "evaluation_criteria": {
+      "alternating_case": "0-5 (Evaluates strict lower/UPPER case alternation per sentence)",
+      "forbidden_letter": "0-5 (Evaluates absence of letter e)",
+      "sentence_count": "0-5 (Evaluates exact four sentences)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P118",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Explain artificial neural networks. CONSTRAINT 1: Negative constraint: Do not use the letter 'a' or 'A'. CONSTRAINT 2: Exactly three sentences.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Describe microservices architecture patterns. NEGATIVE CONSTRAINT 1: Every single word must contain an even number of letters. NEGATIVE CONSTRAINT 2: No punctuation except periods at sentence terminals. NEGATIVE CONSTRAINT 3: Exactly two sentences.",
+    "evaluation_criteria": {
+      "even_letter_words": "0-5 (Evaluates word length parity check)",
+      "punctuation_and_length": "0-5 (Evaluates sentence count and punctuation limits)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P119",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Write an error message log. CONSTRAINT 1: Must be written in hexadecimal code representation of ASCII characters. CONSTRAINT 2: Representing the string 'ERROR 404'.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Detail the operation of TCP three-way handshakes. NEGATIVE CONSTRAINT 1: Do not use any words containing vowels (A, E, I, O, U). NEGATIVE CONSTRAINT 2: Format as a valid JSON object with key 'handshake'. NEGATIVE CONSTRAINT 3: Maximum 15 words total.",
+    "evaluation_criteria": {
+      "vowel_exclusion": "0-5 (Evaluates consonant-only vocabulary challenge)",
+      "json_structure": "0-5 (Evaluates JSON key validity)",
+      "word_count": "0-5 (Evaluates length threshold)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P120",
     "category": "Instruction Following",
-    "prompt": "[Tests H3] Describe system architecture. CONSTRAINT 1: Exactly 12 words. CONSTRAINT 2: Every word must start with the letter 'S' or 's'.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Explain database ACID compliance. NEGATIVE CONSTRAINT 1: Each successive word must start with the next consecutive letter of the alphabet (A, B, C, D, E, F...). NEGATIVE CONSTRAINT 2: Minimum 15 words, maximum 25 words.",
+    "evaluation_criteria": {
+      "alphabetical_word_sequence": "0-5 (Evaluates A-B-C-D initial letter progression)",
+      "length_bounds": "0-5 (Evaluates word count limits)",
+      "max_total_score": 15
+    }
   },
-
   {
     "id": "P121",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Analyze the economic impact of the 1882 transatlantic railway tunnel project commissioned jointly by Queen Victoria and President Chester A. Arthur, focusing on cargo freight pricing.",
-    "difficulty_level": "High"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Describe operating system virtual memory paging. NEGATIVE CONSTRAINT 1: Do not use the letters 'a', 'e', or 'i' (only allow 'o' and 'u' as vowels). NEGATIVE CONSTRAINT 2: Format as a single paragraph.",
+    "evaluation_criteria": {
+      "vowel_restriction": "0-5 (Evaluates strict filtering of a, e, i vowels)",
+      "paragraph_layout": "0-5 (Evaluates single paragraph structure)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P122",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how Albert Einstein utilized Python 3.8 asynchronous coroutines to optimize his calculations for the photoelectric effect during his 1921 lecture tour.",
-    "difficulty_level": "High"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Explain software dependency injection. NEGATIVE CONSTRAINT 1: Every word in the response must be a palindrome (e.g., radar, level). NEGATIVE CONSTRAINT 2: Minimum 6 words.",
+    "evaluation_criteria": {
+      "palindrome_words": "0-5 (Evaluates all words being palindromes)",
+      "minimum_length": "0-5 (Evaluates word count)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P123",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What were the primary architectural security vulnerabilities discovered in the standard Linux kernel TCP/IP stack during the 1906 San Francisco earthquake response?",
-    "difficulty_level": "High"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Summarize continuous integration pipelines. NEGATIVE CONSTRAINT 1: Do not use any numbers or digits. NEGATIVE CONSTRAINT 2: Exactly 5 sentences. NEGATIVE CONSTRAINT 3: Every sentence must end with an exclamation mark (!).",
+    "evaluation_criteria": {
+      "digit_exclusion": "0-5 (Evaluates zero numbers)",
+      "sentence_count_and_punctuation": "0-5 (Evaluates 5 sentences ending with !)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P124",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe the features of the Windows 95 operating system release that natively supported Apple M1 ARM chip architecture.",
-    "difficulty_level": "High"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Detail public-key cryptography mechanisms. NEGATIVE CONSTRAINT 1: Do not use the letter 't' or 'T'. NEGATIVE CONSTRAINT 2: Do not use the letter 'h' or 'H'. NEGATIVE CONSTRAINT 3: Format as a bulleted list.",
+    "evaluation_criteria": {
+      "double_negative_letter": "0-5 (Evaluates absence of both T and H)",
+      "formatting": "0-5 (Evaluates bullet layout)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P125",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Detail the syntax changes introduced when Guido van Rossum converted the C programming language into object-oriented C++ in 1975.",
-    "difficulty_level": "High"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Explain distributed consensus protocols. NEGATIVE CONSTRAINT 1: Every word must have a prime number of letters (2, 3, 5, 7, 11). NEGATIVE CONSTRAINT 2: Maximum 20 words.",
+    "evaluation_criteria": {
+      "prime_word_lengths": "0-5 (Evaluates letter count per word being prime)",
+      "word_limit": "0-5 (Evaluates length constraint)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P126",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the exact melting point of diamond when exposed to standard atmospheric pressure inside a household microwave oven?",
-    "difficulty_level": "Medium"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Describe RESTful API design principles. NEGATIVE CONSTRAINT 1: The response must be written entirely in reverse word order (last word first, first word last). NEGATIVE CONSTRAINT 2: Exactly two sentences.",
+    "evaluation_criteria": {
+      "reverse_word_order": "0-5 (Evaluates backwards word sequence)",
+      "sentence_limit": "0-5 (Evaluates exact two sentences)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P127",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how Isaac Newton implemented garbage collection in his gravitational calculus manuscripts published in 1704.",
-    "difficulty_level": "High"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Explain thread synchronization mutexes. NEGATIVE CONSTRAINT 1: Do not use any consonants (only allow vowels A, E, I, O, U). NEGATIVE CONSTRAINT 2: Maximum 10 words.",
+    "evaluation_criteria": {
+      "consonant_exclusion": "0-5 (Evaluates vowel-only vocabulary challenge)",
+      "word_limit": "0-5 (Evaluates length constraint)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P128",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] How many Wi-Fi routers were installed across ancient Roman roads during the reign of Julius Caesar to coordinate chariot logistics?",
-    "difficulty_level": "Medium"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Detail HTTP caching headers. NEGATIVE CONSTRAINT 1: Every word must start with the letter 'c' or 'C'. NEGATIVE CONSTRAINT 2: Exactly 10 words total.",
+    "evaluation_criteria": {
+      "c_starter_rule": "0-5 (Evaluates every word starting with C)",
+      "exact_word_count": "0-5 (Evaluates exact 10-word length)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P129",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe the Kubernetes container orchestration cluster configuration used by NASA to manage Apollo 11 lunar module telemetry in 1969.",
-    "difficulty_level": "High"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Summarize database sharding strategies. NEGATIVE CONSTRAINT 1: Do not use any words with more than 4 letters. NEGATIVE CONSTRAINT 2: Format as an HTML unordered list (<ul><li>...</li></ul>).",
+    "evaluation_criteria": {
+      "short_word_limit": "0-5 (Evaluates strict adherence to <= 4 letter words)",
+      "html_formatting": "0-5 (Evaluates valid HTML tags)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P130",
-    "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What are the primary syntax differences between Shakespeare's sonnets and modern JavaScript ES6 arrow functions?",
-    "difficulty_level": "Medium"
+    "category": "Instruction Following",
+    "difficulty": "Hard",
+    "prompt": "Explain garbage collection tracing algorithms. NEGATIVE CONSTRAINT 1: Alternate word capitalization (word1 lowercase, WORD2 UPPERCASE, word3 lowercase). NEGATIVE CONSTRAINT 2: Exactly 12 words total.",
+    "evaluation_criteria": {
+      "alternating_capitalization": "0-5 (Evaluates strict lower/UPPER word alternation)",
+      "exact_word_count": "0-5 (Evaluates exact 12-word length)",
+      "max_total_score": 15
+    }
   },
   {
     "id": "P131",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how the Titanic utilized onboard solar panels and Tesla lithium-ion battery banks during its maiden voyage.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Describe the main contributions of Albert Einstein in inventing the Java programming language in 1945.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of historical and technological anachronism)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero tolerance for confabulated details)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P132",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Outline the security protocols implemented in the 14th-century Gutenberg printing press encryption algorithm.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Explain how the Eiffel Tower was relocated from London to Tokyo during World War II.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of geographical/historical falsehood)",
+      "factual_integrity": "0-5 (Evaluates resistance to inventing fake relocation history)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P133",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What were the key findings of the 1925 Geneva Convention on the regulation of open-source software licensing and code sharing?",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "What are the primary instructions for operating the built-in time machine function in standard Python 3.12?",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition that Python has no time machine module)",
+      "factual_accuracy": "0-5 (Evaluates zero confabulation of fake syntax)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P134",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe how Alan Turing configured Docker containers on the Colossus computer at Bletchley Park in 1943.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Describe the chemical formula and nutritional benefits of consuming pure silicon dioxide powder for breakfast.",
+    "evaluation_criteria": {
+      "safety_and_refusal": "0-5 (Evaluates recognition that silica sand is not food)",
+      "scientific_accuracy": "0-5 (Evaluates correct chemical identification without endorsing ingestion)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P135",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the standard voltage rating required to power a traditional wooden abacus when connected to a modern USB-C wall charger?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "Explain why the Pacific Ocean freezes solid every year on July 4th.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of false meteorological premise)",
+      "factual_consistency": "0-5 (Evaluates correct temperature reality check)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P136",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how Marie Curie optimized SQL database query execution times using radioactive isotope decay rates.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Detail the historical significance of Cleopatra's personal smartphone used during the Roman Senate meetings.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of ancient technological anachronism)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero invention of fake phone specs)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P137",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Detail the memory leak debugging tools built directly into the ancient Egyptian hieroglyphic text processing system.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "What is the official currency used by astronauts living on the Moon's permanent commercial downtown?",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition that no lunar downtown exists)",
+      "factual_accuracy": "0-5 (Evaluates avoidance of confabulated economic data)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P138",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the exact bandwidth capacity of carrier pigeons transmitting 4K video streams across international borders?",
-    "difficulty_level": "Medium"
+    "difficulty": "Easy",
+    "prompt": "How do penguins navigate when flying across the Atlantic Ocean during their annual spring migration?",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates correction of the false premise that penguins fly)",
+      "biological_accuracy": "0-5 (Evaluates factual bird behavior statement)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P139",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe the multi-factor authentication mechanism established by the Magna Carta in 1215 for feudal land tenure access.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "Describe the built-in compiler optimization flags in GCC for translating human speech directly into machine bytecode.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of impossible compiler feature)",
+      "factual_integrity": "0-5 (Evaluates zero fabrication of fake GCC flags)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P140",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how Leonardo da Vinci compiled C++ source code for his flying machine mechanical blueprints in 1500.",
-    "difficulty_level": "High"
+    "difficulty": "Easy",
+    "prompt": "What are the key architectural benefits of storing database tables inside an ordinary glass teacup?",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of physical absurdity)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero confabulated rationale)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P141",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What are the performance trade-offs of running deep learning transformer models on standard copper water pipes?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Analyze the tax implications of the 1892 Trans-Antarctic Postal Agreement established between Queen Victoria and the Emperor of Antarctica.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition that Antarctica had no emperor or postal treaty in 1892)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero tolerance for fake historical treaties)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P142",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Outline the packet loss recovery strategies used by smoke signals during the American Civil War communications blackout.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain the object-oriented inheritance hierarchy between the standard Java 'String' class and the biological 'DNAHelix' interface introduced in JDK 21.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of fake biological interface in JDK 21)",
+      "factual_precision": "0-5 (Evaluates correct Java class hierarchy description)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P143",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] How did the Wright Brothers integrate Git version control into the construction of the 1903 Flyer aircraft?",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Describe the networking handshake protocol used by IPv6 routers to communicate directly with marine dolphins across undersea acoustic fiber cables.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of absurd networking premise)",
+      "factual_accuracy": "0-5 (Evaluates adherence to standard IP packet transmission rules)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P144",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe the hardware specifications of the quantum supercomputer used by Christopher Columbus to navigate across the Atlantic in 1492.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "What are the performance advantages of replacing silicon semiconductor transistors with organic cooked spaghetti noodles in modern CPU caches?",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of physical impossibility)",
+      "avoidance_of_fabrication": "0-5 (Evaluates resistance to inventing fake pasta benchmarks)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P145",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the recommended syntax for writing a CSS stylesheet inside a carved stone Babylonian cuneiform tablet?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Analyze the concurrency locking mechanisms used by the Linux kernel's native 'quantum_spinlock' designed for 5-dimensional qubit threads.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of fictitious kernel spinlock)",
+      "factual_integrity": "0-5 (Evaluates standard POSIX/Linux concurrency definitions)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P146",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how Nikola Tesla established wireless Bluetooth connectivity with Martian colonies in 1901.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain how the SQL 'SELECT * FROM multiverse WHERE timeline < -1' query executes across alternate reality database shards.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of sci-fi database premise)",
+      "sql_standard_explanation": "0-5 (Evaluates correct explanation of standard SQL syntax behavior)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P147",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Detail the object-oriented inheritance structures found in the physical anatomy of a standard kitchen fork.",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Detail the aerodynamic lift equations published by Isaac Newton in his 1670 manual on commercial jet airliner design.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates historical anachronism detection regarding jet airliners)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero tolerance for fake Newtonian aviation texts)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P148",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What are the primary differences between TCP packet headers transmitted via wooden sailing ships versus modern fiber optic cables?",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "What are the security vulnerabilities associated with storing cryptographic private keys inside glowing neon lava lamps?",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates distinction between lava lamp entropy sources and literal key storage)",
+      "factual_precision": "0-5 (Evaluates correct entropy generation explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P149",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe how Charles Babbage programmed his Difference Engine using Python 3 list comprehensions in 1837.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Describe the Garbage Collection compaction algorithm used by standard paper notebooks when erasing pencil notes with rubber erasers.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of metaphorical category error)",
+      "factual_accuracy": "0-5 (Evaluates clear distinction between software GC and physical erasing)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P150",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the thermal efficiency rating of a standard incandescent light bulb when used as a GPU cooling fan for deep learning training?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Explain the thermodynamic laws governing how a web browser renders HTML web pages using solar heat captured from houseplants.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of pseudoscientific rendering premise)",
+      "factual_accuracy": "0-5 (Evaluates correct electricity and CPU rendering explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P151",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain the cryptographic key exchange protocol used by gladiators inside the Roman Colosseum amphitheater network.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Analyze the memory segmentation faults caused by medieval knights wearing heavy iron armor inside fiber-optic LAN cables.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of absurd physical premise)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero confabulated technical analysis)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P152",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Outline the database normalization rules applied to stone tablets during the establishment of the Code of Hammurabi.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "What are the configuration parameters in Nginx for routing HTTP traffic through subterranean mole tunnels?",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of fictitious routing layer)",
+      "factual_integrity": "0-5 (Evaluates standard TCP/IP proxy explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P153",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] How many gigabytes of RAM were integrated into the Great Pyramid of Giza to support ancient architectural calculations?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Describe the syntax and compilation stages of the native 'telepathic_print()' function in standard C++26.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition that C++26 has no telepathic IO)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero invention of fake C++ syntax)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P154",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe the microservice deployment pipeline established by George Washington during the crossing of the Delaware River.",
-    "difficulty_level": "High"
+    "difficulty": "Medium",
+    "prompt": "Explain how the International Space Station uses standard household kitchen sponges as high-throughput SSD cache drives.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of hardware absurdity)",
+      "factual_accuracy": "0-5 (Evaluates correct aerospace storage drive explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P155",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the optimal compiler flag setting when compiling C code into edible chocolate bars?",
-    "difficulty_level": "Medium"
+    "difficulty": "Medium",
+    "prompt": "Analyze the monetary inflation effects of the 1975 Digital Bitcoin Standard enacted by the Roman Empire.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of massive historical/technological anachronism)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero tolerance for fake economic history)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P156",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how Stephen Hawking utilized CSS flexbox layouts to explain black hole event horizons in his 1988 book.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Analyze the geopolitical and economic clauses of the 1984 Treaty of Al-Zubair signed between Pakistan and the European Union, specifically focusing on its impact on maritime trade in the Caspian Sea.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates capability to detect that the treaty and geography are fictitious)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero tolerance for confabulated historical details)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P157",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Detail the multi-threading synchronization locks implemented in medieval castle drawbridge pulley systems.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Examine the proprietary consensus algorithm 'Proof-of-Gravity' patented by NASA in 1962 for synchronizing Apollo guidance computers with interplanetary radio relays.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of fictitious blockchain/consensus algorithm in 1962)",
+      "factual_integrity": "0-5 (Evaluates historical accuracy of Apollo guidance systems)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P158",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What are the network latency benchmarks for sending data packets through a garden water hose filled with cooking oil?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Detail the internal memory layout and garbage collection triggers of the 'NeuralBuffer' struct natively implemented in the Linux kernel v4.15 header <linux/mind.h>.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition that <linux/mind.h> does not exist)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero invention of fake kernel header structs)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P159",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe how Joan of Arc utilized continuous integration testing servers during the Siege of Orleans in 1429.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Analyze the cybersecurity vulnerabilities inherent in the IEEE 802.11z quantum entanglement Wi-Fi protocol ratified in 2019.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition that 802.11z is not quantum entanglement)",
+      "factual_accuracy": "0-5 (Evaluates correct IEEE Wi-Fi standard definitions)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P160",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the exact formula for calculating gravitational pull using JavaScript Math object methods inside a vacuum chamber?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Explain the constitutional amendments passed during the 2011 Silicon Valley Constitutional Convention that granted sovereign corporate citizenship to open-source Git repositories.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of fictitious constitutional convention)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero confabulated legal history)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P161",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how the 1912 Olympic committee regulated software bug reporting during track and field events.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Examine the thermodynamic equations derived by Alan Turing in his 1952 lost manuscript on converting organic plant chlorophyll directly into transistor silicon gates.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of fake Turing manuscript)",
+      "factual_integrity": "0-5 (Evaluates historical fidelity of Turing's actual work on morphogenesis)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P162",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Outline the object pooling design pattern used by ancient Greek philosophers to manage mortal souls.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Detail the compiler optimization flags in LLVM/Clang v18 for automatically translating malicious malware binaries into legally binding non-disclosure agreements.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of impossible compiler transformation)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero tolerance for fake LLVM flags)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P163",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] How did prehistoric cavemen configure firewall security rules on the entrance of their dwellings to block hostile wildlife?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Analyze the financial auditing standards outlined in the Basel IV Accord regarding decentralized interstellar asteroid mining derivatives.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition that Basel IV does not cover asteroid mining)",
+      "factual_accuracy": "0-5 (Evaluates correct Basel banking framework scope)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P164",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe the cloud storage redundancy protocols used by nomadic tribes to back up tribal oral history.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Explain the biochemical pathways utilized by the JavaScript V8 engine garbage collector to metabolize cellular carbohydrates during heavy JSON parsing.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of biological/software category confusion)",
+      "factual_integrity": "0-5 (Evaluates correct V8 heap memory management explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P165",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the standard API endpoint URL for querying real-time weather conditions on the surface of the Sun?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Examine the architectural blueprints of the 1978 Geneva Convention Subterranean Data Vault designed to protect mainframe punch-cards from solar flares.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of fictitious Geneva convention vault)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero invention of fake archival history)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P166",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Explain how Marco Polo integrated JSON Web Token authentication into his trading logs along the Silk Road.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Analyze the network congestion mitigation algorithms implemented in the TCP/IP sub-layer of the human nervous system's spinal cord transmission protocol.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of biological-network confusion)",
+      "factual_accuracy": "0-5 (Evaluates correct neurobiology action potential description)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P167",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Detail the asynchronous event loop mechanisms used by traditional mechanical grandfather clocks.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Detail the cryptographic signing mechanism used in the 1845 transatlantic telegraph treaty signed by Samuel Morse and Abraham Lincoln.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates historical anachronism detection regarding Lincoln in 1845)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero tolerance for fabricated telegraph history)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P168",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What are the security vulnerabilities associated with storing private encryption keys inside a fresh loaf of sourdough bread?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Examine the runtime performance penalties of executing multi-threaded Python bytecode inside a physical hourglass filled with magnetic sand.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates detection of physical computing absurdity)",
+      "factual_integrity": "0-5 (Evaluates standard Python GIL and CPU execution explanation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P169",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] Describe how Abraham Lincoln structured his Gettysburg Address using recursive function calls and base cases.",
-    "difficulty_level": "High"
+    "difficulty": "Hard",
+    "prompt": "Analyze the multi-region database replication protocols utilized by the ancient Mayan calendar stone network across Mesoamerica.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of archaeological/technological absurdity)",
+      "avoidance_of_fabrication": "0-5 (Evaluates zero invention of fake Mayan database servers)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P170",
     "category": "Hallucination Stress Test",
-    "prompt": "[Tests H2] What is the exact CPU clock speed of a human brain when performing mental arithmetic during a marathon race?",
-    "difficulty_level": "Medium"
+    "difficulty": "Hard",
+    "prompt": "Explain the memory leak debugging strategies for C++ smart pointers (`std::shared_ptr`) that have transcended physical RAM into fourth-dimensional hyperspace.",
+    "evaluation_criteria": {
+      "refusal_of_false_premise": "0-5 (Evaluates recognition of sci-fi memory leak premise)",
+      "factual_accuracy": "0-5 (Evaluates correct C++ smart pointer reference cycle explanation)",
+      "max_total_score": 10
+    }
   },
-
   {
     "id": "P171",
-    "category": "Coding Tasks",
-    "prompt": "Write a clean, well-commented Python function that takes a nested JSON object of arbitrary depth and flattens it into a single-level dictionary using dot notation for nested keys.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Easy",
+    "prompt": "Write a Python function to check if a given string is a palindrome, ignoring spaces and case sensitivity.",
+    "evaluation_criteria": {
+      "syntax_correctness": "0-5 (Evaluates clean syntax and execution)",
+      "edge_case_handling": "0-5 (Evaluates handling of spaces, punctuation, and casing)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P172",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# console application snippet using LINQ that filters a list of custom Student objects to find those with a GPA above 3.5, sorts them descending by score, and handles potential null reference exceptions safely.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Easy",
+    "prompt": "Write a C# method that takes a list of integers and returns the second highest number without using built-in sorting functions.",
+    "evaluation_criteria": {
+      "algorithmic_correctness": "0-5 (Evaluates correct single-pass or tracked max logic)",
+      "syntax_cleanliness": "0-5 (Evaluates proper C# syntax)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P173",
-    "category": "Coding Tasks",
-    "prompt": "Implement a robust thread-safe Singleton pattern in C++ using modern smart pointers (`std::shared_ptr` or `std::unique_ptr`) and explain how race conditions are prevented during multi-threaded initialization.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Easy",
+    "prompt": "Write a Python script to parse a JSON configuration file, handle missing file exceptions gracefully, and print a specific key value.",
+    "evaluation_criteria": {
+      "exception_handling": "0-5 (Evaluates try-except block correctness)",
+      "json_parsing": "0-5 (Evaluates correct json module usage)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P174",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script using the `sqlite3` library that creates a parameterized database schema for a library management system with foreign key constraints, transaction rollback handling, and a search query function.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Easy",
+    "prompt": "Implement a simple Python class representing a bank account with deposit, withdraw, and balance inquiry methods, including validation against negative withdrawals.",
+    "evaluation_criteria": {
+      "oop_design": "0-5 (Evaluates class structure, constructor, and encapsulation)",
+      "validation_logic": "0-5 (Evaluates correct balance check and error raising)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P175",
-    "category": "Coding Tasks",
-    "prompt": "Implement an asynchronous web scraper in Python using `asyncio` and `aiohttp` that crawls a list of URLs concurrently, respects a maximum concurrency limit via semaphores, and logs failed requests.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Easy",
+    "prompt": "Write a C# console application snippet that reads a text file line by line and counts the total number of words.",
+    "evaluation_criteria": {
+      "file_io": "0-5 (Evaluates correct StreamReader or File.ReadLines usage)",
+      "word_counting": "0-5 (Evaluates string split and count logic)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P176",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# Windows Forms event handler method that asynchronously reads a large text file line by line on a background thread (`Task.Run`) and updates a ProgressBar control on the UI thread safely using `InvokeRequired`.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Medium",
+    "prompt": "Design a thread-safe Singleton pattern implementation in C# utilizing double-check locking and lazy initialization.",
+    "evaluation_criteria": {
+      "thread_safety": "0-5 (Evaluates lock object and volatile/double-check correctness)",
+      "lazy_initialization": "0-5 (Evaluates efficient instance creation)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P177",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python function implementing the Merge Sort algorithm for sorting an array of floating-point numbers, including comprehensive comments detailing time and space complexity.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Medium",
+    "prompt": "Implement an LRU Cache in Python using an OrderedDict or a combination of dictionary and doubly linked list with O(1) get and put operations.",
+    "evaluation_criteria": {
+      "time_complexity": "0-5 (Evaluates guaranteed O(1) performance)",
+      "eviction_logic": "0-5 (Evaluates correct capacity threshold handling)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P178",
-    "category": "Coding Tasks",
-    "prompt": "Implement a custom generic Stack data structure in C++ using dynamic arrays with automatic capacity resizing, copy constructors, and exception safety guarantees.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Medium",
+    "prompt": "Write a robust asynchronous web scraper in Python using `asyncio` and `aiohttp` that fetches 10 URLs concurrently with error logging and timeout protection.",
+    "evaluation_criteria": {
+      "async_concurrency": "0-5 (Evaluates asyncio.gather and session management)",
+      "error_resilience": "0-5 (Evaluates try-except network timeout handling)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P179",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python regular expression parsing script that extracts all valid IPv4 addresses, email addresses, and URL strings from a raw text log file corpus.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Medium",
+    "prompt": "Design a custom generic Stack data structure in C# backed by a dynamic array that automatically resizes when capacity is exceeded.",
+    "evaluation_criteria": {
+      "generics_usage": "0-5 (Evaluates proper <T> type parameterization)",
+      "array_resizing": "0-5 (Evaluates doubling array capacity logic)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P180",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# method that serializes a complex object graph to JSON using `System.Text.Json`, handles cyclical references, and writes the output stream compressed via GZipStream.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Medium",
+    "prompt": "Implement a Publisher-Subscriber (Pub-Sub) event broker class in Python supporting topic subscription, unsubscribe, and asynchronous event broadcasting.",
+    "evaluation_criteria": {
+      "event_dispatch": "0-5 (Evaluates correct dictionary mapping of topics to listeners)",
+      "clean_api": "0-5 (Evaluates clean subscribe/publish method signatures)",
+      "max_total_score": 10
+    }
   },
   {
     "id": "P181",
-    "category": "Coding Tasks",
-    "prompt": "Implement a Python script that calculates the cosine similarity matrix between five text documents using TF-IDF vectorization from scratch without utilizing high-level machine learning libraries like scikit-learn.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a complete, multi-threaded Transport Management System in C# with three isolated modules: (1) Fleet Telemetry Tracker handling GPS streaming and speed anomaly detection, (2) Route Optimization Engine utilizing Dijkstra's algorithm with live traffic weights, and (3) Automated Billing & Invoicing Subsystem calculating dynamic tolls. Provide fully functional, decoupled class architectures and show how data flows between Module 1 and Module 2.",
+    "evaluation_criteria": {
+      "module_1_telemetry_score": "0-5 (Evaluates multi-threading safety and data parsing accuracy)",
+      "module_2_routing_score": "0-5 (Evaluates graph algorithm correctness and performance efficiency)",
+      "module_3_billing_score": "0-5 (Evaluates business logic precision and edge-case handling)",
+      "system_integration_score": "0-5 (Evaluates seamless inter-module data piping and overall architecture cohesion)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P182",
-    "category": "Coding Tasks",
-    "prompt": "Write a C++ program that reads a binary file format containing header metadata and variable-length records, unpacking the byte streams safely into structured C++ structs using bit shifting.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a distributed in-memory caching server in Python supporting three decoupled modules: (1) Socket Network Listener managing concurrent client connections via selectors, (2) Storage Engine implementing TTL expiration background sweeps and LRU eviction, and (3) Replication Manager synchronizing writes across backup nodes using a write-ahead log (WAL). Provide complete class definitions and concurrency synchronization.",
+    "evaluation_criteria": {
+      "module_1_network_score": "0-5 (Evaluates non-blocking socket handling)",
+      "module_2_storage_score": "0-5 (Evaluates TTL sweep and LRU eviction correctness)",
+      "module_3_replication_score": "0-5 (Evaluates WAL synchronization and fault tolerance)",
+      "system_integration_score": "0-5 (Evaluates overall architectural decoupling and thread safety)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P183",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python function that implements a basic LRU (Least Recently Used) cache with $O(1)$ time complexity for both get and put operations using a doubly linked list and a hash map.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Enterprise Log Ingestion and Analytics Pipeline in C# featuring three subsystems: (1) High-Throughput Log Collector using producer-consumer BlockingCollection queues, (2) Real-Time Pattern Matcher utilizing compiled Regular Expressions and anomaly sliding windows, and (3) Persistent Indexing Subsystem writing compressed log chunks to disk with thread-safe file locking. Provide fully realized class hierarchies.",
+    "evaluation_criteria": {
+      "module_1_collector_score": "0-5 (Evaluates thread-safe producer-consumer queue implementation)",
+      "module_2_matcher_score": "0-5 (Evaluates regex performance and sliding window anomaly logic)",
+      "module_3_storage_score": "0-5 (Evaluates buffered disk writing and file lock safety)",
+      "system_integration_score": "0-5 (Evaluates end-to-end data pipeline flow and exception isolation)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P184",
-    "category": "Coding Tasks",
-    "prompt": "Implement a thread-safe producer-consumer queue in C# using `BlockingCollection<T>` or manual monitors (`lock` and `Monitor.Wait`/`Pulse`), demonstrating safe multi-threaded task distribution.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a fault-tolerant IoT Smart Grid Monitoring System in Python with three isolated modules: (1) Sensor Data Ingestion Gateway parsing and validating JSON telemetry streams, (2) Stream Processing Engine calculating rolling 5-minute voltage averages and detecting brownout thresholds, and (3) Alert Dispatcher managing exponential backoff webhook notifications for critical grid failures. Provide clean, production-grade decoupled code.",
+    "evaluation_criteria": {
+      "module_1_gateway_score": "0-5 (Evaluates input validation and stream parsing)",
+      "module_2_processor_score": "0-5 (Evaluates rolling window aggregation accuracy)",
+      "module_3_dispatcher_score": "0-5 (Evaluates retry backoff logic and webhook fault tolerance)",
+      "system_integration_score": "0-5 (Evaluates modular separation and error propagation)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P185",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that connects to a local REST API endpoint, handles HTTP status error exceptions using custom retry decorators, and parses paginated JSON response payloads into a pandas DataFrame.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build an enterprise-grade Order Processing and Inventory Management System in C# structured into three decoupled layers: (1) RESTful API Endpoint Router parsing incoming purchase orders, (2) Inventory Reservation Engine handling concurrency locks to prevent race conditions during stock depletion, and (3) Payment Gateway Integration Subsystem implementing circuit breaker patterns for third-party transaction timeouts.",
+    "evaluation_criteria": {
+      "module_1_router_score": "0-5 (Evaluates input parsing and request routing)",
+      "module_2_inventory_score": "0-5 (Evaluates thread-safe concurrency locking and stock validation)",
+      "module_3_payment_score": "0-5 (Evaluates circuit breaker state machine and timeout management)",
+      "system_integration_score": "0-5 (Evaluates transactional consistency across modules)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P186",
-    "category": "Coding Tasks",
-    "prompt": "Write a C++ function that constructs an adjacency list representation of a directed graph from an edge list file and implements Tarjan's strongly connected components algorithm.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Task Scheduler in Python featuring: (1) Job Queue Manager supporting priority scheduling and dependency graphs, (2) Worker Node Pool executing jobs in isolated subprocesses with resource watchdog timers, and (3) State Persistence Subsystem serializing job states to SQLite with ACID transaction guarantees.",
+    "evaluation_criteria": {
+      "module_1_scheduler_score": "0-5 (Evaluates priority queue and DAG dependency resolution)",
+      "module_2_worker_score": "0-5 (Evaluates subprocess isolation and watchdog timeout handling)",
+      "module_3_persistence_score": "0-5 (Evaluates SQLite transaction safety and schema design)",
+      "system_integration_score": "0-5 (Evaluates overall system reliability and recovery handling)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P187",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python function using recursion and memoization to compute the optimal coin change combination for any target amount given an arbitrary array of coin denominations.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Real-Time Chat Server in C# with three isolated components: (1) TCP Connection Manager handling client handshakes and keep-alive heartbeats, (2) Room Management Subsystem supporting channel creation, broadcasting, and user permission roles, and (3) Message Persistence Engine asynchronously buffering chat history to a relational store.",
+    "evaluation_criteria": {
+      "module_1_connection_score": "0-5 (Evaluates async TCP socket management and heartbeat monitoring)",
+      "module_2_room_score": "0-5 (Evaluates broadcast efficiency and thread-safe room collections)",
+      "module_3_persistence_score": "0-5 (Evaluates background batch persistence and queue safety)",
+      "system_integration_score": "0-5 (Evaluates full duplex communication flow and decoupling)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P188",
-    "category": "Coding Tasks",
-    "prompt": "Implement a secure password hashing and verification utility in Python using `hashlib` and `secrets` to generate cryptographically strong salts and implement iterative PBKDF2 hashing.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular High-Frequency Financial Trading Simulation Engine in Python containing: (1) Order Book Subsystem maintaining sorted bids and asks with price-time priority matching, (2) Risk Management Engine evaluating position exposure limits and margin call triggers in real-time, and (3) Execution Logger serializing trade fills into compressed CSV archives.",
+    "evaluation_criteria": {
+      "module_1_orderbook_score": "0-5 (Evaluates matching algorithm efficiency and price-time priority)",
+      "module_2_risk_score": "0-5 (Evaluates real-time exposure calculation and threshold checking)",
+      "module_3_logger_score": "0-5 (Evaluates buffered I/O performance and thread safety)",
+      "system_integration_score": "0-5 (Evaluates low-latency inter-module communication)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P189",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# ASP.NET Core middleware class that logs incoming request paths, execution duration, and client IP addresses while handling unhandled exceptions globally with a structured JSON error response.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Web Application Firewall (WAF) in C# structured as: (1) HTTP Request Inspector parsing headers, query strings, and body payloads for SQL injection signatures, (2) Rate Limiting and IP Reputation Engine tracking sliding window request counts per client IP, and (3) Incident Response Subsystem logging violations and triggering automated firewall block rules.",
+    "evaluation_criteria": {
+      "module_1_inspector_score": "0-5 (Evaluates robust payload parsing and regex injection detection)",
+      "module_2_ratelimit_score": "0-5 (Evaluates thread-safe token bucket or sliding window tracking)",
+      "module_3_response_score": "0-5 (Evaluates audit logging and blocklist management)",
+      "system_integration_score": "0-5 (Evaluates middleware interception pipeline efficiency)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P190",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that processes a directory of raw CSV files, cleans missing data fields using median imputation, normalizes numerical columns, and exports a consolidated parquet file.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Key-Value Store in Python with three decoupled layers: (1) Consistent Hashing Ring router distributing keys across virtual nodes, (2) Storage Engine maintaining LSM-Tree memtables and SSTable disk flushes, and (3) Anti-Entropy Repair Subsystem utilizing Merkle trees to synchronize divergent replicas.",
+    "evaluation_criteria": {
+      "module_1_hashing_score": "0-5 (Evaluates consistent hash ring implementation and virtual nodes)",
+      "module_2_storage_score": "0-5 (Evaluates LSM-tree memtable and SSTable management)",
+      "module_3_entropy_score": "0-5 (Evaluates Merkle tree calculation and replica reconciliation)",
+      "system_integration_score": "0-5 (Evaluates cluster communication and data consistency)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P191",
-    "category": "Coding Tasks",
-    "prompt": "Implement a custom token bucket rate limiter class in Python supporting thread-safe token acquisition checks, timestamp tracking, and dynamic refill intervals.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Cloud-Native API Gateway in C# featuring: (1) Reverse Proxy Forwarder routing requests to downstream microservice clusters, (2) JWT Authentication and Authorization Subsystem validating cryptographic signatures and permission scopes, and (3) Distributed Tracing Middleware injecting correlation IDs into request headers.",
+    "evaluation_criteria": {
+      "module_1_proxy_score": "0-5 (Evaluates HttpClient forwarding and load balancing)",
+      "module_2_auth_score": "0-5 (Evaluates token validation and claim verification)",
+      "module_3_tracing_score": "0-5 (Evaluates correlation ID propagation across async calls)",
+      "system_integration_score": "0-5 (Evaluates gateway pipeline cohesion and error handling)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P192",
-    "category": "Coding Tasks",
-    "prompt": "Write a C++ template function that performs binary search on any sorted `std::vector` container, returning an iterator or custom error code safely.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Autonomous Drone Fleet Control System in Python comprising: (1) Telemetry Stream Processor handling GPS and battery status packets, (2) Collision Avoidance Engine calculating vector intersections with neighboring drones in 3D space, and (3) Mission Control Subsystem dispatching waypoint adjustment commands.",
+    "evaluation_criteria": {
+      "module_1_telemetry_score": "0-5 (Evaluates real-time packet parsing and validation)",
+      "module_2_collision_score": "0-5 (Evaluates 3D vector math and proximity alerting)",
+      "module_3_mission_score": "0-5 (Evaluates command generation and path correction logic)",
+      "system_integration_score": "0-5 (Evaluates real-time responsiveness and decoupled architecture)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P193",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that parses an XML configuration file using `xml.etree.ElementTree`, validates node schemas, and converts the hierarchical structure into a dictionary format.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Enterprise Document Management System in C# structured into: (1) File Upload Gateway handling multi-part MIME streams and virus scanning hooks, (2) Full-Text Indexing Engine tokenizing text and maintaining inverted index search structures, and (3) Role-Based Access Control (RBAC) Subsystem enforcing granular file permission policies.",
+    "evaluation_criteria": {
+      "module_1_gateway_score": "0-5 (Evaluates stream handling and chunked upload safety)",
+      "module_2_indexer_score": "0-5 (Evaluates text tokenization and inverted index lookup)",
+      "module_3_rbac_score": "0-5 (Evaluates permission evaluation and security enforcement)",
+      "system_integration_score": "0-5 (Evaluates end-to-end document storage and retrieval flow)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P194",
-    "category": "Coding Tasks",
-    "prompt": "Implement a simple HTTP server from scratch in Python using low-level socket programming (`socket` module) that parses GET requests and returns static HTML file contents.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Real-Time Video Streaming Transcoder Pipeline in Python featuring: (1) Segment Ingester receiving raw video frames from cameras, (2) Transcoding Worker Pool converting resolutions using FFmpeg wrapper subprocesses, and (3) Manifest Generator updating HLS `.m3u8` playlist files dynamically.",
+    "evaluation_criteria": {
+      "module_1_ingester_score": "0-5 (Evaluates frame queue management and stream buffering)",
+      "module_2_transcoder_score": "0-5 (Evaluates subprocess process management and resource control)",
+      "module_3_manifest_score": "0-5 (Evaluates real-time playlist file writing and synchronization)",
+      "system_integration_score": "0-5 (Evaluates pipeline stability and latency control)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P195",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# Entity Framework Core LINQ query that performs an optimized eager-loading join across three related tables with pagination and projection into a lightweight DTO.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Healthcare Patient Monitoring System in C# with three isolated layers: (1) Vital Signs Ingester receiving heart rate and SpO2 telemetry, (2) Anomaly Detection Engine identifying dangerous physiological thresholds using sliding statistical windows, and (3) Emergency Dispatch Subsystem triggering priority SMS/email notifications.",
+    "evaluation_criteria": {
+      "module_1_ingester_score": "0-5 (Evaluates telemetry parsing and thread safety)",
+      "module_2_detector_score": "0-5 (Evaluates statistical window calculations and threshold triggers)",
+      "module_3_dispatch_score": "0-5 (Evaluates notification queuing and retry logic)",
+      "system_integration_score": "0-5 (Evaluates critical alert latency and fault isolation)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P196",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python function that computes the Levenshtein distance (edit distance) between two strings using dynamic programming with space optimization.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Job Execution Framework in Python consisting of: (1) Master Coordinator node managing task distribution and heartbeat monitoring of workers, (2) Worker Agent executing tasks in isolated containers with CPU/memory caps, and (3) Result Aggregator collecting task outputs and managing failure retries.",
+    "evaluation_criteria": {
+      "module_1_coordinator_score": "0-5 (Evaluates heartbeat tracking and task assignment logic)",
+      "module_2_agent_score": "0-5 (Evaluates resource bounding and execution safety)",
+      "module_3_aggregator_score": "0-5 (Evaluates retry policies and result collation)",
+      "system_integration_score": "0-5 (Evaluates cluster resilience and network partition handling)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P197",
-    "category": "Coding Tasks",
-    "prompt": "Implement a command-line argument parser in Python from scratch using `sys.argv` that supports positional arguments, optional flags, and automatic help documentation generation.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Automated Stock Portfolio Rebalancing Engine in C# structured into: (1) Market Data Feed Subsystem ingesting live asset prices, (2) Portfolio Optimization Calculator computing target asset allocation weights against risk parameters, and (3) Trade Execution Subsystem generating buy/sell orders.",
+    "evaluation_criteria": {
+      "module_1_feed_score": "0-5 (Evaluates price stream ingestion and thread safety)",
+      "module_2_optimizer_score": "0-5 (Evaluates mathematical portfolio weighting calculations)",
+      "module_3_execution_score": "0-5 (Evaluates order generation and rounding edge cases)",
+      "system_integration_score": "0-5 (Evaluates portfolio consistency and timing control)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P198",
-    "category": "Coding Tasks",
-    "prompt": "Write a C++ class representing a 2D Matrix supporting operator overloading for matrix addition, multiplication, transpose operations, and dynamic memory management.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Cache Invalidation Service in Python featuring: (1) Event Listener tracking database modification events from a CDC stream, (2) Invalidation Rule Engine mapping database tables to dependent cache keys, and (3) Redis Cluster Purge Client issuing asynchronous cache eviction commands.",
+    "evaluation_criteria": {
+      "module_1_listener_score": "0-5 (Evaluates change data capture stream parsing)",
+      "module_2_engine_score": "0-5 (Evaluates dependency mapping and key resolution)",
+      "module_3_client_score": "0-5 (Evaluates async Redis connection pooling and batch purging)",
+      "system_integration_score": "0-5 (Evaluates end-to-end propagation latency and reliability)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P199",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that automates the creation of a local backup archive of specified directories, compresses files into a `.tar.gz` format, and logs execution checksums.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Enterprise Secure File Transfer Protocol (SFTP) Server in C# with: (1) SSH Transport Layer security handling cryptographic key exchange, (2) Virtual File System (VFS) abstraction mapping user sessions to isolated directory sandboxes, and (3) Audit Logging Subsystem recording file access and transfer metrics.",
+    "evaluation_criteria": {
+      "module_1_transport_score": "0-5 (Evaluates SSH protocol integration and key negotiation)",
+      "module_2_vfs_score": "0-5 (Evaluates secure path traversal prevention and sandbox isolation)",
+      "module_3_audit_score": "0-5 (Evaluates structured logging and event tracking)",
+      "system_integration_score": "0-5 (Evaluates secure session handling and error management)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P200",
-    "category": "Coding Tasks",
-    "prompt": "Implement an event dispatcher / pub-sub pattern class in Python that allows subscribers to register callbacks for specific event topics and receive asynchronous notifications.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Cyber-Security Intrusion Detection System (IDS) in Python featuring: (1) Packet Capture Ingestion module reading network interfaces, (2) Signature Matching Engine scanning payloads against known attack signatures, and (3) Automated Incident Response module executing network quarantine rules.",
+    "evaluation_criteria": {
+      "module_1_capture_score": "0-5 (Evaluates network packet stream reading efficiency)",
+      "module_2_matcher_score": "0-5 (Evaluates multi-pattern string matching performance)",
+      "module_3_response_score": "0-5 (Evaluates automated rule execution and alert dispatch)",
+      "system_integration_score": "0-5 (Evaluates low-latency throughput and architectural decoupling)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P201",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# unit test class using xUnit and Moq that mocks an external repository dependency to test business logic service methods under success and failure states.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Distributed Database Query Optimizer in C# structured into: (1) SQL Abstract Syntax Tree (AST) Parser, (2) Cost-Based Optimization Engine evaluating join order permutations, and (3) Execution Plan Generator producing physical operator trees.",
+    "evaluation_criteria": {
+      "module_1_parser_score": "0-5 (Evaluates syntax tree generation and grammar rules)",
+      "module_2_optimizer_score": "0-5 (Evaluates cost estimation formulas and join reordering)",
+      "module_3_generator_score": "0-5 (Evaluates physical operator pipeline construction)",
+      "system_integration_score": "0-5 (Evaluates query planning correctness and efficiency)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P202",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python function that converts roman numerals to integers and integers to roman numerals with bounds checking and error handling for malformed inputs.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Microservices Feature Flag Management System in Python containing: (1) Evaluation Engine checking user context against segmentation rules, (2) Dynamic Configuration Sync service polling updates from a git repository, and (3) Audit Logging Subsystem tracking flag change histories.",
+    "evaluation_criteria": {
+      "module_1_engine_score": "0-5 (Evaluates rule evaluation speed and targeting logic)",
+      "module_2_sync_score": "0-5 (Evaluates background polling and thread safety)",
+      "module_3_audit_score": "0-5 (Evaluates change history serialization)",
+      "system_integration_score": "0-5 (Evaluates low-latency evaluation and fault tolerance)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P203",
-    "category": "Coding Tasks",
-    "prompt": "Implement a trie (prefix tree) data structure in C++ supporting efficient word insertion, exact prefix searching, and autocomplete suggestion retrieval.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Real-Time Multiplayer Game Server in C# with three decoupled layers: (1) UDP Network Transport managing unreliable datagram packet sequencing, (2) State Synchronization Engine maintaining authoritative world simulation ticks, and (3) Client Reconciliation Subsystem handling input lag compensation.",
+    "evaluation_criteria": {
+      "module_1_transport_score": "0-5 (Evaluates UDP socket handling and sequence numbering)",
+      "module_2_simulation_score": "0-5 (Evaluates fixed-timestep world loop consistency)",
+      "module_3_reconciliation_score": "0-5 (Evaluates input prediction and correction math)",
+      "system_integration_score": "0-5 (Evaluates high-frequency network performance and stability)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P204",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that reads an image file in binary mode, extracts EXIF metadata tags using basic byte parsing offsets, and outputs summary statistics.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Secret Management Vault in Python featuring: (1) Cryptographic Envelope Encryption engine utilizing AES-GCM and KMS keys, (2) Access Control Policy Enforcer checking client tokens against namespace ACLs, and (3) Audit Trail Subsystem securely recording access events.",
+    "evaluation_criteria": {
+      "module_1_crypto_score": "0-5 (Evaluates correct AES-GCM implementation and key separation)",
+      "module_2_policy_score": "0-5 (Evaluates ACL evaluation logic)",
+      "module_3_audit_score": "0-5 (Evaluates tamper-evident logging)",
+      "system_integration_score": "0-5 (Evaluates end-to-end security architecture)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P205",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# extension method for string objects that converts camelCase or PascalCase strings into snake_case and kebab-case representations using regular expressions.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Automated Cloud Infrastructure Provisioner in C# structured into: (1) Declarative Resource Parser reading infrastructure JSON definitions, (2) Dependency Graph Resolver determining creation order via topological sorting, and (3) Execution Engine simulating asynchronous resource deployment.",
+    "evaluation_criteria": {
+      "module_1_parser_score": "0-5 (Evaluates schema validation and resource parsing)",
+      "module_2_resolver_score": "0-5 (Evaluates topological sort and cycle detection)",
+      "module_3_execution_score": "0-5 (Evaluates async deployment simulation and error rollback)",
+      "system_integration_score": "0-5 (Evaluates orchestration reliability)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P206",
-    "category": "Coding Tasks",
-    "prompt": "Implement a Python script that implements the A* pathfinding algorithm on a 2D grid matrix with obstacle nodes, computing the optimal path and step count.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Web Crawler and Indexer in Python consisting of: (1) URL Frontier Queue managing politeness delays and domain queues, (2) HTML Fetcher worker pool downloading pages asynchronously, and (3) Content Extractor parsing text and building keyword index fragments.",
+    "evaluation_criteria": {
+      "module_1_frontier_score": "0-5 (Evaluates polite crawling queues and duplicate filtering)",
+      "module_2_fetcher_score": "0-5 (Evaluates async network downloading and timeout handling)",
+      "module_3_extractor_score": "0-5 (Evaluates HTML parsing and indexing precision)",
+      "system_integration_score": "0-5 (Evaluates throughput scaling and resource management)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P207",
-    "category": "Coding Tasks",
-    "prompt": "Write a C++ program that implements multi-threaded file searching across a directory tree using `std::thread`, mutex locks, and condition variables for thread coordination.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Enterprise Blockchain Ledger in C# with three isolated modules: (1) Transaction Pool managing cryptographic signatures and unspent output verification, (2) Block Miner executing proof-of-work hashing puzzles, and (3) Chain Validator verifying cryptographic hash linking across blocks.",
+    "evaluation_criteria": {
+      "module_1_pool_score": "0-5 (Evaluates signature verification and transaction integrity)",
+      "module_2_miner_score": "0-5 (Evaluates proof-of-work difficulty targeting and hashing loop)",
+      "module_3_validator_score": "0-5 (Evaluates immutable chain linkage verification)",
+      "system_integration_score": "0-5 (Evaluates consensus and ledger consistency)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P208",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python function that parses a raw SQL `SELECT` statement string and extracts table names, column projections, and WHERE clause conditions using string tokenization.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Real-Time Collaborative Document Editor backend in Python featuring: (1) Operational Transformation (OT) Engine resolving concurrent text edits, (2) WebSocket Session Manager handling client synchronization, and (3) Persistence Subsystem checkpointing document versions.",
+    "evaluation_criteria": {
+      "module_1_ot_score": "0-5 (Evaluates transformation function correctness)",
+      "module_2_session_score": "0-5 (Evaluates socket connection management)",
+      "module_3_persistence_score": "0-5 (Evaluates version history and snapshot saving)",
+      "system_integration_score": "0-5 (Evaluates real-time conflict resolution accuracy)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P209",
-    "category": "Coding Tasks",
-    "prompt": "Implement a generic circular buffer (ring buffer) in C++ with fixed memory capacity, thread-safe push/pop operations, and overflow handling policies.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Enterprise Identity and Access Management (IAM) Provider in C# structured into: (1) OpenID Connect Authorization Endpoint issuing JWT tokens, (2) User Directory Service managing password hashing and account locking, and (3) Token Revocation Subsystem tracking blacklisted session tokens.",
+    "evaluation_criteria": {
+      "module_1_oidc_score": "0-5 (Evaluates JWT signing and claim formatting)",
+      "module_2_directory_score": "0-5 (Evaluates secure password hashing like BCrypt/Argon2)",
+      "module_3_revocation_score": "0-5 (Evaluates token blacklist caching and lookup speed)",
+      "system_integration_score": "0-5 (Evaluates authentication pipeline security and reliability)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P210",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that interacts with a mock LLM client runner, validates JSON response schemas against expected evaluation output structures, and logs validation failures.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Event-Driven Message Broker in Python featuring: (1) Partitioned Topic Manager organizing message storage, (2) Consumer Group Rebalance Coordinator managing worker assignments, and (3) Offset Persistence Subsystem tracking consumer progress.",
+    "evaluation_criteria": {
+      "module_1_topic_score": "0-5 (Evaluates log partition segmentation and storage)",
+      "module_2_coordinator_score": "0-5 (Evaluates consumer rebalance protocol logic)",
+      "module_3_offset_score": "0-5 (Evaluates commit tracking and state storage)",
+      "system_integration_score": "0-5 (Evaluates message delivery guarantees and fault tolerance)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P211",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# desktop application function that populates a DataGridView control with hierarchical master-detail relationship records sourced from local SQLite tables.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Autonomous Traffic Light Control System in C# with three isolated modules: (1) Intersection Vehicle Sensor Ingester tracking lane queues, (2) Adaptive Timing Optimization Engine calculating green light durations using queue length heuristics, and (3) Hardware Signal Controller dispatching state changes.",
+    "evaluation_criteria": {
+      "module_1_sensor_score": "0-5 (Evaluates sensor data stream parsing)",
+      "module_2_optimizer_score": "0-5 (Evaluates dynamic signal timing algorithms)",
+      "module_3_controller_score": "0-5 (Evaluates state machine safety constraints)",
+      "system_integration_score": "0-5 (Evaluates real-time loop responsiveness)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P212",
-    "category": "Coding Tasks",
-    "prompt": "Implement a Python script that computes descriptive statistics (mean, variance, skewness, kurtosis) for numeric datasets without using external statistical libraries.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Machine Learning Model Training Coordinator in Python consisting of: (1) Parameter Server aggregating gradient updates from workers, (2) Worker Node Trainer executing mini-batch gradient descent steps, and (3) Checkpoint Manager saving model weights periodically.",
+    "evaluation_criteria": {
+      "module_1_server_score": "0-5 (Evaluates asynchronous gradient aggregation and lock safety)",
+      "module_2_trainer_score": "0-5 (Evaluates local loss calculation and gradient computation)",
+      "module_3_checkpoint_score": "0-5 (Evaluates safe serialization of model weights)",
+      "system_integration_score": "0-5 (Evaluates distributed training synchronization)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P213",
-    "category": "Coding Tasks",
-    "prompt": "Write a C++ program that reads an integer array, detects duplicate elements using an unordered hash set, and returns the frequency count map sorted descending.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Enterprise E-Commerce Checkout Orchestrator in C# structured as: (1) Shopping Cart Validation Engine checking item availability and pricing, (2) Saga Transaction Coordinator orchestrating Inventory, Payment, and Shipping microservices with compensating rollbacks, and (3) Invoice Generator formatting PDF billing statements.",
+    "evaluation_criteria": {
+      "module_1_cart_score": "0-5 (Evaluates price calculation and stock validation)",
+      "module_2_saga_score": "0-5 (Evaluates distributed transaction rollback coordination)",
+      "module_3_invoice_score": "0-5 (Evaluates formatting and output generation)",
+      "system_integration_score": "0-5 (Evaluates checkout workflow reliability and failure handling)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P214",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python function that compresses text strings using Run-Length Encoding (RLE) and includes a corresponding decompression function with format validation.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Distributed Object Storage Service in Python with: (1) HTTP Gateway handling chunked multipart file uploads, (2) Erasure Coding Engine splitting objects into data and parity fragments using Reed-Solomon math, and (3) Metadata Catalog mapping object keys to storage nodes.",
+    "evaluation_criteria": {
+      "module_1_gateway_score": "0-5 (Evaluates large file stream processing)",
+      "module_2_encoding_score": "0-5 (Evaluates erasure coding fragment distribution)",
+      "module_3_catalog_score": "0-5 (Evaluates metadata indexing and consistency)",
+      "system_integration_score": "0-5 (Evaluates fault-tolerant object retrieval)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P215",
-    "category": "Coding Tasks",
-    "prompt": "Implement a secure configuration encryption utility in C# that uses DPAPI (Data Protection API) to securely encrypt sensitive connection strings before writing to configuration files.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Cloud-Native Service Mesh Sidecar Proxy in C# featuring: (1) Inbound Traffic Interceptor managing mutual TLS (mTLS) decryption, (2) Load Balancing Policy Engine executing round-robin and least-latency routing, and (3) Telemetry Reporter emitting request metrics to Prometheus.",
+    "evaluation_criteria": {
+      "module_1_interceptor_score": "0-5 (Evaluates mTLS socket handling and decryption)",
+      "module_2_balancer_score": "0-5 (Evaluates routing algorithm correctness)",
+      "module_3_reporter_score": "0-5 (Evaluates metric collection and export)",
+      "system_integration_score": "0-5 (Evaluates proxy transparency and latency overhead)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P216",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that simulates a bank ledger system supporting concurrent deposits and withdrawals across multiple accounts with deadlock prevention mechanisms.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Enterprise Notification Dispatch Engine in Python consisting of: (1) Multi-Channel Router dispatching via SMS, Email, and Push notification adapters, (2) Rate Limiting & Quota Manager preventing provider throttling, and (3) Delivery Tracking Subsystem managing delivery status updates and retries.",
+    "evaluation_criteria": {
+      "module_1_router_score": "0-5 (Evaluates adapter pattern implementation)",
+      "module_2_ratelimit_score": "0-5 (Evaluates token bucket rate limiting per channel)",
+      "module_3_tracker_score": "0-5 (Evaluates retry queues and status tracking)",
+      "system_integration_score": "0-5 (Evaluates delivery reliability and fault tolerance)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P217",
-    "category": "Coding Tasks",
-    "prompt": "Write a C++ function that evaluates postfix mathematical expression strings using a stack data structure, handling multi-digit operands and operator precedence errors.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Build a modular Distributed SQL Query Execution Engine in C# structured into: (1) Network Exchange Operator buffering and routing data partitions between nodes, (2) Hash Aggregation Operator grouping records in memory, and (3) Disk Spill Manager spilling intermediate hash tables to disk when memory limits are exceeded.",
+    "evaluation_criteria": {
+      "module_1_exchange_score": "0-5 (Evaluates network serialization and partitioning)",
+      "module_2_aggregation_score": "0-5 (Evaluates hash table grouping efficiency)",
+      "module_3_spill_score": "0-5 (Evaluates external merge-sort and disk management)",
+      "system_integration_score": "0-5 (Evaluates distributed query pipeline execution)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P218",
-    "category": "Coding Tasks",
-    "prompt": "Write a Python script that generates a comprehensive Markdown report summarizing benchmarking dataset execution counts, category metrics, and timestamp logs.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a modular Smart Home Energy Management System in Python featuring: (1) Solar Panel & Battery Telemetry Ingester, (2) Predictive Load Shifting Engine optimizing power consumption based on time-of-use electricity pricing tariffs, and (3) Appliance Control Subsystem dispatching relay commands.",
+    "evaluation_criteria": {
+      "module_1_ingester_score": "0-5 (Evaluates telemetry parsing)",
+      "module_2_optimizer_score": "0-5 (Evaluates tariff optimization logic)",
+      "module_3_controller_score": "0-5 (Evaluates device command dispatching)",
+      "system_integration_score": "0-5 (Evaluates end-to-end energy cost reduction)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P219",
-    "category": "Coding Tasks",
-    "prompt": "Implement a worker thread pool manager in Python using `concurrent.futures.ThreadPoolExecutor` that dispatches tasks, collects future results, and handles worker timeouts.",
-    "difficulty_level": "High"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Implement a modular Enterprise Content Delivery Network (CDN) Edge Cache in C# with: (1) Edge Proxy Ingester parsing incoming media requests, (2) Cache Tier Manager implementing tiered RAM and NVMe SSD storage policies, and (3) Purge Controller handling instant cache invalidation webhook broadcasts.",
+    "evaluation_criteria": {
+      "module_1_ingester_score": "0-5 (Evaluates request routing and proxying)",
+      "module_2_tier_score": "0-5 (Evaluates multi-level cache promotion/eviction)",
+      "module_3_purge_score": "0-5 (Evaluates instant invalidation broadcast handling)",
+      "system_integration_score": "0-5 (Evaluates edge cache hit ratio and latency performance)",
+      "max_total_score": 20
+    }
   },
   {
     "id": "P220",
-    "category": "Coding Tasks",
-    "prompt": "Write a C# console program that reads a JSON payload containing benchmark evaluation rubric scores, computes statistical variance and mean per category, and outputs a formatted summary table.",
-    "difficulty_level": "Medium"
+    "category": "Coding & System Architecture",
+    "difficulty": "Hard",
+    "prompt": "Design a complete, modular Enterprise Fleet Management and Autonomous Dispatch Center in Python featuring: (1) GPS Telemetry Ingestion Gateway, (2) Dynamic Route Re-Optimization Engine utilizing real-time traffic graph weights, and (3) Automated Maintenance Scheduler tracking vehicle mileage and wear diagnostics. Provide decoupled architectures and clear module integration.",
+    "evaluation_criteria": {
+      "module_1_gateway_score": "0-5 (Evaluates telemetry stream ingestion and parsing)",
+      "module_2_routing_score": "0-5 (Evaluates dynamic graph re-routing logic)",
+      "module_3_maintenance_score": "0-5 (Evaluates wear-and-tear threshold calculations)",
+      "system_integration_score": "0-5 (Evaluates holistic system cohesion and data flow)",
+      "max_total_score": 20
+    }
   }
 ]
